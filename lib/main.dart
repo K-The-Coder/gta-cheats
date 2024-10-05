@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:gta_cheats/cheat_screens/gta_three_cheats.dart';
 import 'package:gta_cheats/custom_app_bar.dart';
 import 'package:keep_screen_on/keep_screen_on.dart';
 import 'package:gta_cheats/game_card.dart';
@@ -40,18 +41,15 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(title: 'Home'),
+      appBar: const CustomAppBar(title: 'Home',),
       body: Container(
         margin: const EdgeInsets.only(top: 60),
         child: ListView(
           children: [
             GestureDetector(
               onTap: (){
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(
-                    content: const Text('GTA III clicked'),
-                    action: SnackBarAction(label: 'OK', onPressed: (){}),
-                  ),
+                Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const GtaThreeCheats()),
                 );
               },
               child: const GameCard(gameName: 'Grand Theft Auto III'),
@@ -98,20 +96,36 @@ class _HomePageState extends State<HomePage> {
             ),
             ListTile(
               title: TextButton(
-                onPressed: (){},
-                child: const Text('Game #1'),
+                onPressed: (){
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const GtaThreeCheats()),
+                  );
+                },
+                child: const Text('Grand Theft Auto III'),
               ),
             ),
             ListTile(
               title: TextButton(
                 onPressed: (){},
-                child: const Text('Game #2'),
+                child: const Text('Grand Theft Auto: Vice City'),
               ),
             ),
             ListTile(
               title: TextButton(
                 onPressed: (){},
-                child: const Text('Game #3'),
+                child: const Text('Grand Theft Auto: San Andreas'),
+              ),
+            ),
+            ListTile(
+              title: TextButton(
+                onPressed: (){},
+                child: const Text('Grand Theft Auto IV'),
+              ),
+            ),
+            ListTile(
+              title: TextButton(
+                onPressed: (){},
+                child: const Text('Grand Theft Auto V'),
               ),
             ),
           ],

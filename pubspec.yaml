@@ -60,9 +60,19 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+     - 'lib/assets/playstation_buttons/cross_button.png'
+     - 'lib/assets/playstation_buttons/square_button.png'
+     - 'lib/assets/playstation_buttons/triangle_button.png'
+     - 'lib/assets/playstation_buttons/circle_button.png'
+     - 'lib/assets/playstation_buttons/L1_button.png'
+     - 'lib/assets/playstation_buttons/L2_button.png'
+     - 'lib/assets/playstation_buttons/R1_button.png'
+     - 'lib/assets/playstation_buttons/R2_button.png'
+     - 'lib/assets/playstation_buttons/left_button.png'
+     - 'lib/assets/playstation_buttons/right_button.png'
+     - 'lib/assets/playstation_buttons/up_button.png'
+     - 'lib/assets/playstation_buttons/down_button.png'
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
