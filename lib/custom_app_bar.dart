@@ -23,7 +23,10 @@ class _CustomAppBarState extends State<CustomAppBar> {
   {
     return AppBar(
       title: Text(widget.title,
-        style: const TextStyle(color: Colors.white),
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 20
+        ),
       ),
       leading: IconButton(
         onPressed: () {
