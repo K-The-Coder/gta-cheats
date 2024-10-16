@@ -4,6 +4,7 @@ import 'package:gta_cheats/custom_app_bar.dart';
 import 'package:gta_cheats/game_card.dart';
 import 'package:gta_cheats/cheat_screens/gta_three_cheats.dart';
 import 'package:gta_cheats/cheat_screens/gta_vice_city_cheats.dart';
+import 'package:gta_cheats/cheat_screens/gta_san_andreas_cheats.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -67,6 +68,11 @@ class _HomePageState extends State<HomePage> {
                   child: const GameCard(gameName: 'Grand Theft Auto: Vice City'),
                 ),
                 GestureDetector(
+                  onTap: (){
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GtaSanAndreasCheats()),
+                    );
+                  },
                   child: const GameCard(gameName: 'Grand Theft Auto: San Andreas'),
                 ),
                 GestureDetector(
@@ -117,7 +123,11 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 title: TextButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GtaSanAndreasCheats()),
+                    );
+                  },
                   child: const Text('Grand Theft Auto: San Andreas'),
                 ),
               ),

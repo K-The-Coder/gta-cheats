@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gta_cheats/cheat_data.dart';
+import 'package:gta_cheats/cheat_screens/gta_san_andreas_cheats.dart';
 import 'package:gta_cheats/cheat_screens/gta_vice_city_cheats.dart';
 import 'package:gta_cheats/custom_app_bar.dart';
 import 'package:gta_cheats/home_page.dart';
@@ -99,7 +100,11 @@ class GtaThreeCheats extends StatelessWidget {
             ),
             ListTile(
               title: TextButton(
-                onPressed: (){},
+                onPressed: (){
+                  Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => const GtaSanAndreasCheats()),
+                  );
+                },
                 child: const Text('Grand Theft Auto: San Andreas'),
               ),
             ),

@@ -288,7 +288,77 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
 ];
 
-// List<Map<String, dynamic>> gtaSanAndreasPSCheats = [];
+List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
+  {
+    'title' : 'Health, Armor, and Money (\$250,000)',
+    'buttons' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+  },
+  {
+    'title' : 'Infinite Ammo',
+    'buttons' : [l1Button, r1Button, squareButton, r1Button, leftButton, r2Button, r1Button, leftButton, squareButton, downButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Infinite Health',
+    'buttons' : [downButton, crossButton, rightButton, leftButton, rightButton, r1Button, rightButton, downButton, upButton, triangleButton],
+  },
+  {
+    'title' : 'Weapons Set #1',
+    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+  },
+  {
+    'title' : 'Weapons Set #2',
+    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, leftButton],
+  },
+  {
+    'title' : 'Weapons Set #3',
+    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, downButton],
+  },
+  {
+    'title' : 'Lower Wanted Level',
+    'buttons' : [r1Button, r1Button, circleButton, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
+  },
+  {
+    'title' : 'Raise Wanted Level',
+    'buttons' : [r1Button, r1Button, circleButton, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
+  },
+  {
+    'title' : 'Lock Wanted Level',
+    'buttons' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, triangleButton, upButton],
+  },
+  {
+    'title' : 'Max Wanted Level',
+    'buttons' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, crossButton, downButton],
+  },
+  {
+    'title' : 'Pedestrian Riot',
+    'buttons' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+  },
+  {
+    'title' : 'Chaos Mode',
+    'buttons' : [l2Button, rightButton, l1Button, triangleButton, rightButton, rightButton, r1Button, l1Button, rightButton, l1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Bounty on Your Head',
+    'buttons' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+  },
+  {
+    'title' : 'Pedestrians Attack (with guns)',
+    'buttons' : [crossButton, l1Button, upButton, squareButton, downButton, crossButton, l2Button, triangleButton, downButton, r1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Pedestrians Carry Weapons',
+    'buttons' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
+  },
+  {
+    'title' : 'All Pedestrians are Elvis',
+    'buttons' : [l1Button, circleButton, triangleButton, l1Button, l1Button, squareButton, l2Button, upButton, downButton, leftButton],
+  },
+  {
+    'title' : 'Beach Party Mode',
+    'buttons' : [upButton, upButton, downButton, downButton, squareButton, circleButton, l1Button, r1Button, triangleButton, downButton]
+  },
+  //TODO: continue from here
+];
 //
 // List<Map<String, dynamic>> gtaFourPSCheats = [];
 //
