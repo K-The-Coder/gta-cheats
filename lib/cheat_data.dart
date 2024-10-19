@@ -355,9 +355,109 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Beach Party Mode',
-    'buttons' : [upButton, upButton, downButton, downButton, squareButton, circleButton, l1Button, r1Button, triangleButton, downButton]
+    'buttons' : [upButton, upButton, downButton, downButton, squareButton, circleButton, l1Button, r1Button, triangleButton, downButton],
   },
-  //TODO: continue from here
+  {
+    'title' : 'Triad Theme',
+    'buttons' : [crossButton, crossButton, downButton, r2Button, l2Button, circleButton, squareButton],
+  },
+  {
+    'title' : 'Funhouse Theme',
+    'buttons' : [triangleButton, triangleButton, l1Button, squareButton, squareButton, circleButton, squareButton, downButton, circleButton]
+  },
+  {
+    'title' : 'Rural Theme',
+    'buttons' : [l1Button, l1Button, r1Button, r1Button, l2Button, l1Button, r2Button, downButton, leftButton, upButton],
+  },
+  {
+    'title' : 'Kinky Theme',
+    'buttons' : [squareButton, rightButton, squareButton, squareButton, l2Button, crossButton, triangleButton, crossButton, triangleButton],
+  },
+  {
+    'title' : 'Mega Jump',
+    'buttons' : [upButton, upButton, triangleButton, triangleButton, upButton, upButton, leftButton, rightButton, squareButton, r2Button, r2Button],
+  },
+  {
+    'title' : 'Super Punch',
+    'buttons' : [upButton, leftButton, crossButton, triangleButton, r1Button, squareButton, squareButton, squareButton, l2Button],
+  },
+  {
+    'title' : 'Spawn Rhino Tank',
+    'buttons' : [circleButton, circleButton, l1Button, circleButton, circleButton, circleButton, l1Button, l2Button, r1Button, triangleButton, circleButton, triangleButton],
+  },
+  {
+    'title' : 'Spawn Jetpack',
+    'buttons' : [l1Button, l2Button, r1Button, r2Button, upButton, downButton, leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, upButton, downButton, leftButton, rightButton],
+  },
+  {
+    'title' : 'Spawn Hydra',
+    'buttons' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l1Button, downButton, upButton],
+  },
+  {
+    'title' : 'Spawn Hunter',
+    'buttons' : [circleButton, crossButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Spawn Stunt Plane',
+    'buttons' : [circleButton, upButton, l1Button, l2Button, downButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+  },
+  {
+    'title' : 'Spawn Bloodring Banger',
+    'buttons' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
+  },
+  {
+    'title' : 'Spawn Vortex Hovercraft',
+    'buttons' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l2Button, downButton, downButton],
+  },
+  {
+    'title' : 'Spawn Parachute',
+    'buttons' : [leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, r2Button, upButton, downButton, rightButton, l1Button],
+  },
+  {
+    'title' : 'Spawn Monster',
+    'buttons' : [rightButton, upButton, r1Button, r1Button, r1Button, downButton, triangleButton, triangleButton, crossButton, circleButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Spawn Hotring Racer #1',
+    'buttons' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+  },
+  {
+    'title' : 'Spawn Hotring Racer #2',
+    'buttons' : [r2Button, l1Button, circleButton, rightButton, l1Button, r1Button, rightButton, upButton, circleButton, r2Button],
+  },
+  {
+    'title' : 'Spawn Romero',
+    'buttons' : [downButton, r2Button, downButton, r1Button, r2Button, leftButton, r1Button, l1Button, leftButton, rightButton],
+  },
+  {
+    'title' : 'Spawn Stretch',
+    'buttons' : [r2Button, upButton, l2Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+  },
+  {
+    'title' : 'Spawn Trashmaster',
+    'buttons' : [circleButton, r1Button, circleButton, r1Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+  },
+  {
+    'title' : 'Spawn Caddy',
+    'buttons' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
+  },
+  {
+    'title' : 'Spawn Quad',
+    'buttons' : [leftButton, leftButton, downButton, downButton, upButton, upButton, squareButton, circleButton, triangleButton, r1Button, r2Button],
+  },
+  {
+    'title' : 'Spawn Tanker Truck',
+    'buttons' : [r1Button, upButton, leftButton, rightButton, r2Button, upButton, rightButton, squareButton, rightButton, l2Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Spawn Dozer',
+    'buttons' : [r2Button, l1Button, l1Button, rightButton, rightButton, upButton, upButton, crossButton, l1Button, leftButton],
+  },
+  {
+    'title' : 'Spawn Rancher',
+    'buttons' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, crossButton, l2Button],
+  },
+  //TODO: continue next time
 ];
 //
 // List<Map<String, dynamic>> gtaFourPSCheats = [];
