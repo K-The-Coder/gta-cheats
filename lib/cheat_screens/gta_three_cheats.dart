@@ -40,10 +40,10 @@ class GtaThreeCheats extends StatelessWidget {
                     child: ListView.builder(
                       padding: const EdgeInsets.all(16),
                       scrollDirection: Axis.horizontal,
-                      itemCount: gtaThreePSCheats[index]['buttons'].length,
-                      itemBuilder: (context, buttonIndex) {
+                      itemCount: gtaThreePSCheats[index]['code'].length,
+                      itemBuilder: (context, codeIndex) {
                         return Image.asset(
-                          gtaThreePSCheats[index]['buttons'][buttonIndex],
+                          gtaThreePSCheats[index]['code'][codeIndex],
                           height: 50,
                           width: 45,
                         );

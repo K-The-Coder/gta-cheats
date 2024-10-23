@@ -29,7 +29,6 @@ class _HomePageState extends State<HomePage> {
                 TextButton(
                   onPressed: () {
                     SystemChannels.platform.invokeMethod('SystemNavigator.pop');
-                    //Navigator.of(context).pop(true);
                   },
                   child: const Text('Yes'),
                 ),
@@ -76,9 +75,25 @@ class _HomePageState extends State<HomePage> {
                   child: const GameCard(gameName: 'Grand Theft Auto: San Andreas'),
                 ),
                 GestureDetector(
+                  onTap: (){
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: const Text('GTA IV cheats coming soon'),
+                        action: SnackBarAction(label: 'Close', onPressed: (){}),
+                      ),
+                    );
+                  },
                   child: const GameCard(gameName: 'Grand Theft Auto IV'),
                 ),
                 GestureDetector(
+                  onTap: (){
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        content: const Text('GTA V cheats coming soon'),
+                        action: SnackBarAction(label: 'Close', onPressed: (){}),
+                      ),
+                    );
+                  },
                   child: const GameCard(gameName: 'Grand Theft Auto V'),
                 ),
               ]

@@ -40,10 +40,10 @@ class GtaViceCityCheats extends StatelessWidget {
                     child: ListView.builder(
                       padding: const EdgeInsets.only(left: 8, right: 8),
                       scrollDirection: Axis.horizontal,
-                      itemCount: gtaViceCityPSCheats[index]['buttons'].length,
-                      itemBuilder: (context, buttonIndex) {
+                      itemCount: gtaViceCityPSCheats[index]['code'].length,
+                      itemBuilder: (context, codeIndex) {
                         return Image.asset(
-                          gtaViceCityPSCheats[index]['buttons'][buttonIndex],
+                          gtaViceCityPSCheats[index]['code'][codeIndex],
                           height: 50,
                           width: 45,
                         );

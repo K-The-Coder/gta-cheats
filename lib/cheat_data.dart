@@ -3,461 +3,620 @@ import 'constants.dart';
 List<Map<String, dynamic>> gtaThreePSCheats = [
   {
     'title' : 'Full Health',
-    'buttons' : [r2Button, r2Button, l1Button, r1Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r2Button, r2Button, l1Button, r1Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Full Armor',
-    'buttons' : [r2Button, r2Button, l1Button, l2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r2Button, r2Button, l1Button, l2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'All Weapons',
-    'buttons' : [r2Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r2Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Acquire \$250 000',
-    'buttons' : [r2Button, r2Button, l1Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r2Button, r2Button, l1Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Spawn a Rhino Tank',
-    'buttons' : [circleButton, circleButton, circleButton, circleButton, circleButton, circleButton, r1Button, l2Button, l1Button, triangleButton, circleButton, triangleButton],
+    'code' : [circleButton, circleButton, circleButton, circleButton, circleButton, circleButton, r1Button, l2Button, l1Button, triangleButton, circleButton, triangleButton],
   },
   {
     'title' : 'Destroy all vehicles',
-    'buttons' : [l2Button, r2Button, l1Button, r1Button, l2Button, r2Button, triangleButton, squareButton, circleButton, triangleButton, l2Button, l1Button],
+    'code' : [l2Button, r2Button, l1Button, r1Button, l2Button, r2Button, triangleButton, squareButton, circleButton, triangleButton, l2Button, l1Button],
   },
   {
     'title' : 'Low Gravity Cars',
-    'buttons' : [rightButton, r2Button, circleButton, r1Button, l2Button, downButton, l1Button, r1Button],
+    'code' : [rightButton, r2Button, circleButton, r1Button, l2Button, downButton, l1Button, r1Button],
   },
   {
     'title' : 'Invisible Cars with visible wheels',
-    'buttons' : [l1Button, l1Button, squareButton, r2Button, triangleButton, l1Button, triangleButton],
+    'code' : [l1Button, l1Button, squareButton, r2Button, triangleButton, l1Button, triangleButton],
   },
   {
     'title' : 'Boost Jump Ability/Increased Grip for Cars',
-    'buttons' : [r1Button, l1Button, r2Button, l1Button, leftButton, r1Button, r1Button, triangleButton],
+    'code' : [r1Button, l1Button, r2Button, l1Button, leftButton, r1Button, r1Button, triangleButton],
   },
   {
     'title' : 'Increase Wanted Level by 2 Stars',
-    'buttons' : [r2Button, r2Button, l1Button, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
+    'code' : [r2Button, r2Button, l1Button, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
   },
   {
     'title' : 'Remove All Wanted Level Stars',
-    'buttons' : [r2Button, r2Button, l1Button, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
+    'code' : [r2Button, r2Button, l1Button, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
   },
   {
     'title' : 'Light Clouds in Sky',
-    'buttons' : [l1Button, l2Button, r1Button, r2Button, r1Button, r2Button, r1Button, l2Button, triangleButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, r1Button, r2Button, r1Button, l2Button, triangleButton],
   },
   {
     'title' : 'Foggy Weather',
-    'buttons' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, crossButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, crossButton],
   },
   {
     'title' : 'Stormy Weather',
-    'buttons' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, circleButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, circleButton],
   },
   {
     'title' : 'Overcast Weather',
-    'buttons' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, crossButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, crossButton],
   },
   {
     'title' : 'Increase Game Speed (2x)',
-    'buttons' : [triangleButton, upButton, rightButton, downButton, squareButton, l1Button, l2Button],
+    'code' : [triangleButton, upButton, rightButton, downButton, squareButton, l1Button, l2Button],
   },
   {
     'title' : 'Decrease Game Speed (0.25)',
-    'buttons' : [triangleButton, upButton, rightButton, downButton, squareButton, r1Button, r2Button],
+    'code' : [triangleButton, upButton, rightButton, downButton, squareButton, r1Button, r2Button],
   },
   {
     'title' : 'Speed up Game Time',
-    'buttons' : [circleButton, circleButton, circleButton, squareButton, squareButton, squareButton, squareButton, squareButton, l1Button, triangleButton, circleButton, triangleButton],
+    'code' : [circleButton, circleButton, circleButton, squareButton, squareButton, squareButton, squareButton, squareButton, l1Button, triangleButton, circleButton, triangleButton],
   },
   {
     'title' : 'Pedestrians Riot',
-    'buttons' : [downButton, upButton, leftButton, upButton, crossButton, r1Button, r2Button, l2Button, l1Button],
+    'code' : [downButton, upButton, leftButton, upButton, crossButton, r1Button, r2Button, l2Button, l1Button],
   },
   {
     'title' : 'Pedestrians attack Claude',
-    'buttons' : [downButton, upButton, leftButton, upButton, crossButton, r1Button, r2Button, l1Button, l2Button],
+    'code' : [downButton, upButton, leftButton, upButton, crossButton, r1Button, r2Button, l1Button, l2Button],
   },
   {
     'title' : 'Pedestrians have Weapons',
-    'buttons' : [r2Button, r1Button, triangleButton, crossButton, l2Button, l1Button, upButton, downButton],
+    'code' : [r2Button, r1Button, triangleButton, crossButton, l2Button, l1Button, upButton, downButton],
   },
   {
     'title' : 'Play as Pedestrian',
-    'buttons' : [rightButton, downButton, leftButton, upButton, l1Button, l2Button, upButton, leftButton, downButton, rightButton],
+    'code' : [rightButton, downButton, leftButton, upButton, l1Button, l2Button, upButton, leftButton, downButton, rightButton],
   },
   {
     'title' : 'Gore',
-    'buttons' : [squareButton, l1Button, circleButton, downButton, l1Button, r1Button, triangleButton, rightButton, l1Button, crossButton],
+    'code' : [squareButton, l1Button, circleButton, downButton, l1Button, r1Button, triangleButton, rightButton, l1Button, crossButton],
   },
 ];
 
 List<Map<String, dynamic>> gtaViceCityPSCheats = [
   {
     'title' : 'Weapon Set #1',
-    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Weapon Set #2',
-    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, leftButton],
+    'code' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, leftButton],
   },
   {
     'title' : 'Weapon Set #3',
-    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, downButton, downButton],
+    'code' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, downButton, downButton],
   },
   {
     'title' : 'Full Health',
-    'buttons' : [r1Button, r2Button, l1Button, circleButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, circleButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Full Armour',
-    'buttons' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Black Cars',
-    'buttons' : [circleButton, l2Button, upButton, r1Button, leftButton, crossButton, r1Button, l1Button, leftButton, circleButton],
+    'code' : [circleButton, l2Button, upButton, r1Button, leftButton, crossButton, r1Button, l1Button, leftButton, circleButton],
   },
   {
     'title' : 'Blow Up Cars',
-    'buttons' : [r2Button, l2Button, r1Button, l1Button, l2Button, r2Button, squareButton, triangleButton, circleButton, triangleButton, l2Button, l1Button],
+    'code' : [r2Button, l2Button, r1Button, l1Button, l2Button, r2Button, squareButton, triangleButton, circleButton, triangleButton, l2Button, l1Button],
   },
   {
     'title' : 'Change Clothes',
-    'buttons' : [rightButton, rightButton, leftButton, upButton, l1Button, l2Button, leftButton, upButton, downButton, rightButton],
+    'code' : [rightButton, rightButton, leftButton, upButton, l1Button, l2Button, leftButton, upButton, downButton, rightButton],
   },
   {
     'title' : 'Cloudy Weather',
-    'buttons' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
   },
   {
     'title' : 'Commit Suicide',
-    'buttons' : [rightButton, l2Button, downButton, r1Button, leftButton, leftButton, r1Button, l1Button, l2Button, l1Button],
+    'code' : [rightButton, l2Button, downButton, r1Button, leftButton, leftButton, r1Button, l1Button, l2Button, l1Button],
   },
   {
     'title' : 'Speed up Time',
-    'buttons' : [circleButton, circleButton, l1Button, squareButton, l1Button, squareButton, squareButton, squareButton, l1Button, triangleButton, circleButton, triangleButton],
+    'code' : [circleButton, circleButton, l1Button, squareButton, l1Button, squareButton, squareButton, squareButton, l1Button, triangleButton, circleButton, triangleButton],
   },
   {
     'title' : 'Speed up Gameplay',
-    'buttons' : [triangleButton, upButton, rightButton, downButton, l2Button, l1Button, squareButton],
+    'code' : [triangleButton, upButton, rightButton, downButton, l2Button, l1Button, squareButton],
   },
   {
     'title' : 'Slow down Gameplay',
-    'buttons' : [triangleButton, upButton, rightButton, downButton, squareButton, r2Button, r1Button],
+    'code' : [triangleButton, upButton, rightButton, downButton, squareButton, r2Button, r1Button],
   },
   {
     'title' : 'Flying Cars',
-    'buttons' : [rightButton, r2Button, circleButton, r1Button, l2Button, downButton, l1Button, r1Button],
+    'code' : [rightButton, r2Button, circleButton, r1Button, l2Button, downButton, l1Button, r1Button],
   },
   {
     'title' : 'Foggy Weather',
-    'buttons' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, crossButton],
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, crossButton],
   },
   {
     'title' : 'Female NPCs carry Weapons',
-    'buttons' : [rightButton, l1Button, circleButton, l2Button, leftButton, crossButton, r1Button, l1Button, l1Button, crossButton],
+    'code' : [rightButton, l1Button, circleButton, l2Button, leftButton, crossButton, r1Button, l1Button, l1Button, crossButton],
   },
   {
     'title' : 'Lower Wanted Level',
-    'buttons' : [r1Button, r1Button, circleButton, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
+    'code' : [r1Button, r1Button, circleButton, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
   },
   {
     'title' : 'Raise Wanted Level',
-    'buttons' : [r1Button, r1Button, circleButton, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
+    'code' : [r1Button, r1Button, circleButton, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
   },
   {
     'title' : 'Media Level Meter',
-    'buttons' : [r2Button, circleButton, upButton, l1Button, rightButton, r1Button, rightButton, upButton, squareButton, triangleButton],
+    'code' : [r2Button, circleButton, upButton, l1Button, rightButton, r1Button, rightButton, upButton, squareButton, triangleButton],
   },
   {
     'title' : 'Pedestrians attack Tommy',
-    'buttons' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l2Button],
+    'code' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l2Button],
     'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
   },
   {
     'title' : 'Pedestrians Riot',
-    'buttons' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+    'code' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
     'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
   },
   {
     'title' : 'Pedestrians carry Weapons',
-    'buttons' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
+    'code' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
   },
   {
     'title' : 'Vehicles Have Perfect Handling',
-    'buttons' : [triangleButton, r1Button, r1Button, leftButton, r1Button, l1Button, r2Button, l1Button],
+    'code' : [triangleButton, r1Button, r1Button, leftButton, r1Button, l1Button, r2Button, l1Button],
   },
   {
     'title' : 'Vehicles Turn Pink',
-    'buttons' : [circleButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, rightButton, circleButton],
+    'code' : [circleButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, rightButton, circleButton],
   },
   {
     'title' : 'Play As Hilary King',
-    'buttons' : [r1Button, circleButton, r2Button, l1Button, rightButton, r1Button, l1Button, crossButton, r2Button],
+    'code' : [r1Button, circleButton, r2Button, l1Button, rightButton, r1Button, l1Button, crossButton, r2Button],
   },
   {
     'title' : 'Play As Ken Rosenberg',
-    'buttons' : [rightButton, l1Button, upButton, l2Button, l1Button, rightButton, r1Button, l1Button, crossButton, r1Button],
+    'code' : [rightButton, l1Button, upButton, l2Button, l1Button, rightButton, r1Button, l1Button, crossButton, r1Button],
   },
   {
     'title' : 'Play As Lance Vance',
-    'buttons' : [crossButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, l1Button],
+    'code' : [crossButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, l1Button],
   },
   {
     'title' : 'Play As Love Fist Guy #1',
-    'buttons' : [downButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, crossButton],
+    'code' : [downButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, crossButton],
   },
   {
     'title' : 'Play As Love Fist Guy #2',
-    'buttons' : [r1Button, l2Button, r2Button, l1Button, rightButton, r2Button, leftButton, crossButton, squareButton, l1Button],
+    'code' : [r1Button, l2Button, r2Button, l1Button, rightButton, r2Button, leftButton, crossButton, squareButton, l1Button],
   },
   {
     'title' : 'Play As Mercedes',
-    'buttons' : [r2Button, l1Button, upButton, l1Button, rightButton, r1Button, rightButton, upButton, circleButton, triangleButton],
+    'code' : [r2Button, l1Button, upButton, l1Button, rightButton, r1Button, rightButton, upButton, circleButton, triangleButton],
   },
   {
     'title' : 'Play As Phil Cassidy',
-    'buttons' : [rightButton, r1Button, upButton, r2Button, l1Button, rightButton, r1Button, l1Button, rightButton, circleButton],
+    'code' : [rightButton, r1Button, upButton, r2Button, l1Button, rightButton, r1Button, l1Button, rightButton, circleButton],
   },
   {
     'title' : 'Play As Ricardo Diaz',
-    'buttons' : [l1Button, l2Button, r1Button, r2Button, downButton, l1Button, r2Button, l2Button],
+    'code' : [l1Button, l2Button, r1Button, r2Button, downButton, l1Button, r2Button, l2Button],
   },
   {
     'title' : 'Play As Sonny Forelli',
-    'buttons' : [circleButton, l1Button, circleButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, crossButton],
+    'code' : [circleButton, l1Button, circleButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, crossButton],
   },
   {
     'title' : 'Play As Candy Suxxx',
-    'buttons' : [circleButton, r2Button, downButton, r1Button, leftButton, rightButton, r1Button, l1Button, crossButton, l2Button],
+    'code' : [circleButton, r2Button, downButton, r1Button, leftButton, rightButton, r1Button, l1Button, crossButton, l2Button],
   },
   {
     'title' : 'Spawn a Bloodring Banger',
-    'buttons' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, squareButton, l2Button],
+    'code' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, squareButton, l2Button],
   },
   {
     'title' : 'Spawn a Bloodring Racer',
-    'buttons' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
+    'code' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
   },
   {
     'title' : 'Spawn a Caddie',
-    'buttons' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
+    'code' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
   },
   {
     'title' : 'Spawn a Hotring Racer #1',
-    'buttons' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
   },
   {
     'title' : 'Spawn a Hotring Racer #2',
-    'buttons' : [r2Button, l1Button, circleButton, rightButton, l1Button, r1Button, rightButton, upButton, circleButton, r2Button],
+    'code' : [r2Button, l1Button, circleButton, rightButton, l1Button, r1Button, rightButton, upButton, circleButton, r2Button],
   },
   {
     'title' : 'Spawn a Love Fist Limo',
-    'buttons' : [r2Button, upButton, l2Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+    'code' : [r2Button, upButton, l2Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
   },
   {
     'title' : 'Spawn a Rhino',
-    'buttons' : [circleButton, circleButton, l1Button, circleButton, circleButton, circleButton, l1Button, l2Button, r1Button, triangleButton, circleButton, triangleButton],
+    'code' : [circleButton, circleButton, l1Button, circleButton, circleButton, circleButton, l1Button, l2Button, r1Button, triangleButton, circleButton, triangleButton],
   },
   {
     'title' : "Spawn a Romero's Hearse",
-    'buttons' : [downButton, r2Button, downButton, r1Button, l2Button, leftButton, r1Button, l1Button, leftButton, rightButton],
+    'code' : [downButton, r2Button, downButton, r1Button, l2Button, leftButton, r1Button, l1Button, leftButton, rightButton],
   },
   {
     'title' : 'Spawn a Sabre Turbo',
-    'buttons' : [rightButton, l2Button, downButton, l2Button, l2Button, crossButton, r1Button, l1Button, circleButton, leftButton],
+    'code' : [rightButton, l2Button, downButton, l2Button, l2Button, crossButton, r1Button, l1Button, circleButton, leftButton],
   },
   {
     'title' : 'Spawn a Trashmaster',
-    'buttons' : [circleButton, r1Button, circleButton, r1Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+    'code' : [circleButton, r1Button, circleButton, r1Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
   },
   {
     'title' : 'Stormy Weather',
-    'buttons' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
   },
   {
     'title' : 'Sunny Weather',
-    'buttons' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
   },
   {
     'title' : 'Overcast Weather',
-    'buttons' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
   },
 ];
 
 List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   {
     'title' : 'Health, Armor, and Money (\$250,000)',
-    'buttons' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Infinite Ammo',
-    'buttons' : [l1Button, r1Button, squareButton, r1Button, leftButton, r2Button, r1Button, leftButton, squareButton, downButton, l1Button, l1Button],
+    'code' : [l1Button, r1Button, squareButton, r1Button, leftButton, r2Button, r1Button, leftButton, squareButton, downButton, l1Button, l1Button],
   },
   {
     'title' : 'Infinite Health',
-    'buttons' : [downButton, crossButton, rightButton, leftButton, rightButton, r1Button, rightButton, downButton, upButton, triangleButton],
+    'code' : [downButton, crossButton, rightButton, leftButton, rightButton, r1Button, rightButton, downButton, upButton, triangleButton],
   },
   {
     'title' : 'Weapons Set #1',
-    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Weapons Set #2',
-    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, leftButton],
+    'code' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, leftButton],
   },
   {
     'title' : 'Weapons Set #3',
-    'buttons' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, downButton],
+    'code' : [r1Button, r2Button, l1Button, r2Button, leftButton, downButton, rightButton, upButton, leftButton, downButton, downButton, downButton],
   },
   {
     'title' : 'Lower Wanted Level',
-    'buttons' : [r1Button, r1Button, circleButton, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
+    'code' : [r1Button, r1Button, circleButton, r2Button, upButton, downButton, upButton, downButton, upButton, downButton],
   },
   {
     'title' : 'Raise Wanted Level',
-    'buttons' : [r1Button, r1Button, circleButton, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
+    'code' : [r1Button, r1Button, circleButton, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
   },
   {
     'title' : 'Lock Wanted Level',
-    'buttons' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, triangleButton, upButton],
+    'code' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, triangleButton, upButton],
   },
   {
     'title' : 'Max Wanted Level',
-    'buttons' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, crossButton, downButton],
+    'code' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, crossButton, downButton],
   },
   {
     'title' : 'Pedestrian Riot',
-    'buttons' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+    'code' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
   },
   {
     'title' : 'Chaos Mode',
-    'buttons' : [l2Button, rightButton, l1Button, triangleButton, rightButton, rightButton, r1Button, l1Button, rightButton, l1Button, l1Button, l1Button],
+    'code' : [l2Button, rightButton, l1Button, triangleButton, rightButton, rightButton, r1Button, l1Button, rightButton, l1Button, l1Button, l1Button],
   },
   {
     'title' : 'Bounty on Your Head',
-    'buttons' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+    'code' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l1Button],
   },
   {
     'title' : 'Pedestrians Attack (with guns)',
-    'buttons' : [crossButton, l1Button, upButton, squareButton, downButton, crossButton, l2Button, triangleButton, downButton, r1Button, l1Button, l1Button],
+    'code' : [crossButton, l1Button, upButton, squareButton, downButton, crossButton, l2Button, triangleButton, downButton, r1Button, l1Button, l1Button],
   },
   {
     'title' : 'Pedestrians Carry Weapons',
-    'buttons' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
+    'code' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
   },
   {
     'title' : 'All Pedestrians are Elvis',
-    'buttons' : [l1Button, circleButton, triangleButton, l1Button, l1Button, squareButton, l2Button, upButton, downButton, leftButton],
+    'code' : [l1Button, circleButton, triangleButton, l1Button, l1Button, squareButton, l2Button, upButton, downButton, leftButton],
   },
   {
     'title' : 'Beach Party Mode',
-    'buttons' : [upButton, upButton, downButton, downButton, squareButton, circleButton, l1Button, r1Button, triangleButton, downButton],
+    'code' : [upButton, upButton, downButton, downButton, squareButton, circleButton, l1Button, r1Button, triangleButton, downButton],
   },
   {
     'title' : 'Triad Theme',
-    'buttons' : [crossButton, crossButton, downButton, r2Button, l2Button, circleButton, squareButton],
+    'code' : [crossButton, crossButton, downButton, r2Button, l2Button, circleButton, squareButton],
   },
   {
     'title' : 'Funhouse Theme',
-    'buttons' : [triangleButton, triangleButton, l1Button, squareButton, squareButton, circleButton, squareButton, downButton, circleButton]
+    'code' : [triangleButton, triangleButton, l1Button, squareButton, squareButton, circleButton, squareButton, downButton, circleButton]
   },
   {
     'title' : 'Rural Theme',
-    'buttons' : [l1Button, l1Button, r1Button, r1Button, l2Button, l1Button, r2Button, downButton, leftButton, upButton],
+    'code' : [l1Button, l1Button, r1Button, r1Button, l2Button, l1Button, r2Button, downButton, leftButton, upButton],
   },
   {
     'title' : 'Kinky Theme',
-    'buttons' : [squareButton, rightButton, squareButton, squareButton, l2Button, crossButton, triangleButton, crossButton, triangleButton],
+    'code' : [squareButton, rightButton, squareButton, squareButton, l2Button, crossButton, triangleButton, crossButton, triangleButton],
   },
   {
     'title' : 'Mega Jump',
-    'buttons' : [upButton, upButton, triangleButton, triangleButton, upButton, upButton, leftButton, rightButton, squareButton, r2Button, r2Button],
+    'code' : [upButton, upButton, triangleButton, triangleButton, upButton, upButton, leftButton, rightButton, squareButton, r2Button, r2Button],
   },
   {
     'title' : 'Super Punch',
-    'buttons' : [upButton, leftButton, crossButton, triangleButton, r1Button, squareButton, squareButton, squareButton, l2Button],
+    'code' : [upButton, leftButton, crossButton, triangleButton, r1Button, squareButton, squareButton, squareButton, l2Button],
   },
   {
     'title' : 'Spawn Rhino Tank',
-    'buttons' : [circleButton, circleButton, l1Button, circleButton, circleButton, circleButton, l1Button, l2Button, r1Button, triangleButton, circleButton, triangleButton],
+    'code' : [circleButton, circleButton, l1Button, circleButton, circleButton, circleButton, l1Button, l2Button, r1Button, triangleButton, circleButton, triangleButton],
   },
   {
     'title' : 'Spawn Jetpack',
-    'buttons' : [l1Button, l2Button, r1Button, r2Button, upButton, downButton, leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, upButton, downButton, leftButton, rightButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, upButton, downButton, leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, upButton, downButton, leftButton, rightButton],
   },
   {
     'title' : 'Spawn Hydra',
-    'buttons' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l1Button, downButton, upButton],
+    'code' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l1Button, downButton, upButton],
   },
   {
     'title' : 'Spawn Hunter',
-    'buttons' : [circleButton, crossButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
+    'code' : [circleButton, crossButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
   },
   {
     'title' : 'Spawn Stunt Plane',
-    'buttons' : [circleButton, upButton, l1Button, l2Button, downButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+    'code' : [circleButton, upButton, l1Button, l2Button, downButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
   },
   {
     'title' : 'Spawn Bloodring Banger',
-    'buttons' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
+    'code' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
   },
   {
     'title' : 'Spawn Vortex Hovercraft',
-    'buttons' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l2Button, downButton, downButton],
+    'code' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l2Button, downButton, downButton],
   },
   {
     'title' : 'Spawn Parachute',
-    'buttons' : [leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, r2Button, upButton, downButton, rightButton, l1Button],
+    'code' : [leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, r2Button, upButton, downButton, rightButton, l1Button],
   },
   {
     'title' : 'Spawn Monster',
-    'buttons' : [rightButton, upButton, r1Button, r1Button, r1Button, downButton, triangleButton, triangleButton, crossButton, circleButton, l1Button, l1Button],
+    'code' : [rightButton, upButton, r1Button, r1Button, r1Button, downButton, triangleButton, triangleButton, crossButton, circleButton, l1Button, l1Button],
   },
   {
     'title' : 'Spawn Hotring Racer #1',
-    'buttons' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
   },
   {
     'title' : 'Spawn Hotring Racer #2',
-    'buttons' : [r2Button, l1Button, circleButton, rightButton, l1Button, r1Button, rightButton, upButton, circleButton, r2Button],
+    'code' : [r2Button, l1Button, circleButton, rightButton, l1Button, r1Button, rightButton, upButton, circleButton, r2Button],
   },
   {
     'title' : 'Spawn Romero',
-    'buttons' : [downButton, r2Button, downButton, r1Button, r2Button, leftButton, r1Button, l1Button, leftButton, rightButton],
+    'code' : [downButton, r2Button, downButton, r1Button, r2Button, leftButton, r1Button, l1Button, leftButton, rightButton],
   },
   {
     'title' : 'Spawn Stretch',
-    'buttons' : [r2Button, upButton, l2Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+    'code' : [r2Button, upButton, l2Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
   },
   {
     'title' : 'Spawn Trashmaster',
-    'buttons' : [circleButton, r1Button, circleButton, r1Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+    'code' : [circleButton, r1Button, circleButton, r1Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
   },
   {
     'title' : 'Spawn Caddy',
-    'buttons' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
+    'code' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
   },
   {
     'title' : 'Spawn Quad',
-    'buttons' : [leftButton, leftButton, downButton, downButton, upButton, upButton, squareButton, circleButton, triangleButton, r1Button, r2Button],
+    'code' : [leftButton, leftButton, downButton, downButton, upButton, upButton, squareButton, circleButton, triangleButton, r1Button, r2Button],
   },
   {
     'title' : 'Spawn Tanker Truck',
-    'buttons' : [r1Button, upButton, leftButton, rightButton, r2Button, upButton, rightButton, squareButton, rightButton, l2Button, l1Button, l1Button],
+    'code' : [r1Button, upButton, leftButton, rightButton, r2Button, upButton, rightButton, squareButton, rightButton, l2Button, l1Button, l1Button],
   },
   {
     'title' : 'Spawn Dozer',
-    'buttons' : [r2Button, l1Button, l1Button, rightButton, rightButton, upButton, upButton, crossButton, l1Button, leftButton],
+    'code' : [r2Button, l1Button, l1Button, rightButton, rightButton, upButton, upButton, crossButton, l1Button, leftButton],
   },
   {
     'title' : 'Spawn Rancher',
-    'buttons' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, crossButton, l2Button],
+    'code' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, crossButton, l2Button],
   },
-  //TODO: continue next time
+  {
+    'title' : 'Max Muscle',
+    'code' : [triangleButton, upButton, upButton, leftButton, rightButton, squareButton, circleButton, leftButton],
+  },
+  {
+    'title' : 'Max Fat',
+    'code' : [triangleButton, upButton, upButton, leftButton, rightButton, squareButton, circleButton, downButton],
+  },
+  {
+    'title' : 'Minimum Muscle and Fat',
+    'code' : [triangleButton, upButton, upButton, leftButton, rightButton, squareButton, circleButton, rightButton],
+  },
+  {
+    'title' : 'Infinite Lung Capacity',
+    'code' : [downButton, leftButton, l1Button, downButton, downButton, r2Button, downButton, l2Button, downButton],
+  },
+  {
+    'title' : 'Maximum Respect',
+    'code' : [l1Button, r1Button, triangleButton, downButton, r2Button, crossButton, l1Button, upButton, l2Button, l2Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Maximum Sex Appeal',
+    'code' : [circleButton, triangleButton, triangleButton, upButton, circleButton, r1Button, l2Button, upButton, triangleButton, l1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Hitman Level for All Weapons',
+    'code' : [downButton, squareButton, crossButton, leftButton, r1Button, r2Button, leftButton, downButton, downButton, l1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Gang Members Mode',
+    'code' : [leftButton, rightButton, rightButton, rightButton, leftButton, crossButton, downButton, upButton, squareButton, rightButton, downButton],
+  },
+  {
+    'title' : 'Gang Control the Streets',
+    'code' : [l2Button, upButton, r1Button, r1Button, leftButton, r1Button, r1Button, r2Button, rightButton, downButton],
+  },
+  {
+    'title' : 'Recruit Anyone (Pistol)',
+    'code' : [downButton, squareButton, upButton, r2Button, r2Button, upButton, rightButton, rightButton, upButton],
+  },
+  {
+    'title' : 'Recruit Anyone (Rocket Launcher)',
+    'code' : [r2Button, r2Button, r2Button, crossButton, l2Button, l1Button, l2Button, downButton, crossButton],
+  },
+  {
+    'title' : 'Always Midnight',
+    'code' : [squareButton, l1Button, r1Button, rightButton, crossButton, upButton, l1Button, leftButton, leftButton],
+  },
+  {
+    'title' : 'Always 21:00',
+    'code' : [leftButton, leftButton, l2Button, r1Button, rightButton, squareButton, squareButton, l1Button, l2Button, crossButton],
+  },
+  {
+    'title' : 'Slow Motion',
+    'code' : [triangleButton, upButton, rightButton, downButton, squareButton, r2Button, r1Button],
+  },
+  {
+    'title' : 'Fast Motion',
+    'code' : [triangleButton, upButton, rightButton, downButton, l2Button, l1Button, squareButton],
+  },
+  {
+    'title' : 'Faster Clock',
+    'code' : [circleButton, circleButton, l1Button, squareButton, l1Button, squareButton, squareButton, squareButton, l1Button, triangleButton, circleButton, triangleButton],
+  },
+  {
+    'title' : 'Cloudy Weather',
+    'code' : [l2Button, downButton, downButton, leftButton, squareButton, leftButton, r2Button, squareButton, crossButton, r1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Foggy Weather',
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, crossButton],
+  },
+  {
+    'title' : 'Stormy Weather',
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
+  },
+  {
+    'title' : 'Sunny Weather',
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
+  },
+  {
+    'title' : 'Very Sunny Weather',
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, downButton],
+  },
+  {
+    'title' : 'Sandstorm',
+    'code' : [upButton, downButton, l1Button, l1Button, l2Button, l2Button, l1Button, l2Button, r1Button, r2Button],
+  },
+  {
+    'title' : 'Free Aim While Driving',
+    'code' : [upButton, upButton, squareButton, l2Button, rightButton, crossButton, r1Button, downButton, r2Button, circleButton],
+  },
+  {
+    'title' : 'Blow Up All Cars',
+    'code' : [r2Button, l2Button, r1Button, l1Button, l2Button, r2Button, squareButton, triangleButton, circleButton, triangleButton, l2Button, l1Button],
+  },
+  {
+    'title' : 'Traffic Lights Stay Green',
+    'code' : [rightButton, r1Button, upButton, l2Button, l2Button, leftButton, r1Button, l1Button, r1Button, r1Button],
+  },
+  {
+    'title' : 'Aggressive Traffic',
+    'code' : [r2Button, circleButton, r1Button, l2Button, leftButton, r1Button, l1Button, r2Button, l2Button],
+  },
+  {
+    'title' : 'Increase Car Speed',
+    'code' : [rightButton, r1Button, upButton, l2Button, l2Button, leftButton, r1Button, l1Button, r1Button, r1Button],
+  },
+  {
+    'title' : 'All Cars have Nitrous',
+    'code' : [leftButton, triangleButton, r1Button, l1Button, upButton, squareButton, triangleButton, downButton, circleButton, l2Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Flying Cars',
+    'code' : [squareButton, downButton, l2Button, upButton, l1Button, circleButton, upButton, crossButton, leftButton],
+  },
+  {
+    'title' : 'Flying Boats',
+    'code' : [r2Button, circleButton, upButton, l1Button, rightButton, r1Button, rightButton, upButton, squareButton, triangleButton],
+  },
+  {
+    'title' : 'Drive on Water',
+    'code' : [rightButton, r2Button, circleButton, r1Button, l2Button, squareButton, r1Button, r2Button],
+  },
+  {
+    'title' : 'Perfect Vehicle Handling',
+    'code' : [triangleButton, r1Button, r1Button, leftButton, r1Button, l1Button, r2Button, l1Button],
+  },
+  {
+    'title' : 'Super Bunny Hop',
+    'code' : [triangleButton, squareButton, circleButton, circleButton, squareButton, circleButton, circleButton, l1Button, l2Button, l2Button, r1Button, r2Button],
+  },
+  {
+    'title' : 'Invisible Cars',
+    'code' : [triangleButton, l1Button, triangleButton, r2Button, squareButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Moon Car Gravity',
+    'code' : [squareButton, r2Button, downButton, downButton, leftButton, downButton, leftButton, leftButton, l2Button, crossButton],
+  },
+  {
+    'title' : 'Reduced Traffic',
+    'code' : [crossButton, downButton, upButton, r2Button, downButton, triangleButton, l1Button, triangleButton, leftButton],
+  },
+  {
+    'title' : 'Pink Cars',
+    'code' : [circleButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, rightButton, circleButton],
+  },
+  {
+    'title' : 'Black Cars',
+    'code' : [circleButton, l2Button, upButton, r1Button, leftButton, crossButton, r1Button, l1Button, leftButton, circleButton],
+  },
+  {
+    'title' : 'Sports Cars',
+    'code' : [upButton, l1Button, r1Button, upButton, rightButton, upButton, crossButton, l2Button, crossButton, l1Button],
+  },
+  {
+    'title' : 'Junk Cars',
+    'code' : [l2Button, rightButton, l1Button, upButton, crossButton, l1Button, l2Button, r2Button, r1Button, l1Button, l1Button, l1Button],
+  },
 ];
 //
 // List<Map<String, dynamic>> gtaFourPSCheats = [];
