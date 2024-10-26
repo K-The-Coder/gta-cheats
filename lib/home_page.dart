@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:gta_cheats/cheat_screens/gta_four_cheats.dart';
 import 'package:gta_cheats/custom_app_bar.dart';
 import 'package:gta_cheats/game_card.dart';
 import 'package:gta_cheats/cheat_screens/gta_three_cheats.dart';
@@ -76,11 +77,8 @@ class _HomePageState extends State<HomePage> {
                 ),
                 GestureDetector(
                   onTap: (){
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: const Text('GTA IV cheats coming soon'),
-                        action: SnackBarAction(label: 'Close', onPressed: (){}),
-                      ),
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GtaFourCheats()),
                     );
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto IV'),
@@ -148,7 +146,11 @@ class _HomePageState extends State<HomePage> {
               ),
               ListTile(
                 title: TextButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (context) => const GtaFourCheats()),
+                    );
+                  },
                   child: const Text('Grand Theft Auto IV'),
                 ),
               ),

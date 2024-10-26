@@ -618,7 +618,72 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
     'code' : [l2Button, rightButton, l1Button, upButton, crossButton, l1Button, l2Button, r2Button, r1Button, l1Button, l1Button, l1Button],
   },
 ];
-//
-// List<Map<String, dynamic>> gtaFourPSCheats = [];
-//
+
+List<Map<String, dynamic>> gtaFourPSCheats = [
+  {
+    'title' : 'Health + Armour',
+    'phone-number' : '362-555-0100',
+  },
+  {
+    'title' : 'Health, Armour, and Ammo',
+    'phone-number' : '482-555-0100',
+  },
+  {
+    'title' : 'Tier 1 Weapons',
+    'phone-number' : '486-555-0150',
+  },
+  {
+    'title' : 'Tier 2 Weapons',
+    'phone-number' : '486-555-0100',
+  },
+  {
+    'title' : 'Clear Wanted Level',
+    'phone-number' : '267-555-0100',
+  },
+  {
+    'title' : 'Raise Wanted Level',
+    'phone-number' : '267-555-0150',
+  },
+  {
+    'title' : 'Spawn Annihilator helicopter',
+    'phone-number' : '359-555-0100',
+  },
+  {
+    'title' : 'Spawn Comet',
+    'phone-number' : '227-555-0175',
+  },
+  {
+    'title' : 'Spawn Cognoscenti',
+    'phone-number' : '227-555-0142',
+  },
+  {
+    'title' : 'Spawn FIB Buffalo',
+    'phone-number' : '227-555-0100',
+  },
+  {
+    'title' : 'Spawn Jetmax boat',
+    'phone-number' : '938-555-0100',
+  },
+  {
+    'title' : 'Spawn NRG-9000 bike',
+    'phone-number' : '625-555-0100',
+  },
+  {
+    'title' : 'Spawn Sanchez bike',
+    'phone-number' : '625-555-0150',
+  },
+  {
+    'title' : 'Spawn Super GT',
+    'phone-number' : '227-555-0168',
+  },
+  {
+    'title' : 'Spawn Turismo',
+    'phone-number' : '227-555-0147',
+  },
+  {
+    'title' : 'Change Weather',
+    'phone-number' : '468-555-0100',
+  },
+];
+
 // List<Map<String, dynamic>> gtaFivePSCheats = [];
