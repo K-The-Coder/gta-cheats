@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:gta_cheats/cheat_screens/gta_four_cheats.dart';
-import 'package:gta_cheats/custom_app_bar.dart';
-import 'package:gta_cheats/game_card.dart';
-import 'package:gta_cheats/cheat_screens/gta_three_cheats.dart';
-import 'package:gta_cheats/cheat_screens/gta_vice_city_cheats.dart';
-import 'package:gta_cheats/cheat_screens/gta_san_andreas_cheats.dart';
+import 'package:gta_cheats/utilities/widgets/custom_app_bar.dart';
+import 'package:gta_cheats/utilities/functions/functions.dart';
+import 'package:gta_cheats/utilities/widgets/game_card.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -53,44 +50,31 @@ class _HomePageState extends State<HomePage> {
               children: [
                 GestureDetector(
                   onTap: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaThreeCheats()),
-                    );
+                    gtaThreeRoute(context);
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto III'),
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaViceCityCheats()),
-                    );
+                    gtaViceCityRoute(context);
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto: Vice City'),
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaSanAndreasCheats()),
-                    );
+                   gtaSanAndreasRoute(context);
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto: San Andreas'),
                 ),
                 GestureDetector(
                   onTap: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaFourCheats()),
-                    );
+                    gtaFourRoute(context);
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto IV'),
                 ),
                 GestureDetector(
                   onTap: (){
-                    ScaffoldMessenger.of(context).showSnackBar(
-                      SnackBar(
-                        content: const Text('GTA V cheats coming soon'),
-                        action: SnackBarAction(label: 'Close', onPressed: (){}),
-                      ),
-                    );
+                   gtaFiveRoute(context);
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto V'),
                 ),
@@ -117,9 +101,7 @@ class _HomePageState extends State<HomePage> {
               ListTile(
                 title: TextButton(
                   onPressed: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaThreeCheats()),
-                    );
+                    gtaThreeRoute(context);
                   },
                   child: const Text('Grand Theft Auto III'),
                 ),
@@ -127,9 +109,7 @@ class _HomePageState extends State<HomePage> {
               ListTile(
                 title: TextButton(
                   onPressed: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaViceCityCheats()),
-                    );
+                    gtaViceCityRoute(context);
                   },
                   child: const Text('Grand Theft Auto: Vice City'),
                 ),
@@ -137,9 +117,7 @@ class _HomePageState extends State<HomePage> {
               ListTile(
                 title: TextButton(
                   onPressed: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaSanAndreasCheats()),
-                    );
+                    gtaSanAndreasRoute(context);
                   },
                   child: const Text('Grand Theft Auto: San Andreas'),
                 ),
@@ -147,16 +125,16 @@ class _HomePageState extends State<HomePage> {
               ListTile(
                 title: TextButton(
                   onPressed: (){
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaFourCheats()),
-                    );
+                    gtaFourRoute(context);
                   },
                   child: const Text('Grand Theft Auto IV'),
                 ),
               ),
               ListTile(
                 title: TextButton(
-                  onPressed: (){},
+                  onPressed: (){
+                    gtaFiveRoute(context);
+                  },
                   child: const Text('Grand Theft Auto V'),
                 ),
               ),

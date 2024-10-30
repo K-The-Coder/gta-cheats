@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:keep_screen_on/keep_screen_on.dart';
-import 'package:gta_cheats/home_page.dart';
+import 'package:gta_cheats/views/home_page.dart';
 
 void main(List<String> args)
 {

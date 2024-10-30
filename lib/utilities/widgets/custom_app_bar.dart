@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:gta_cheats/menu_action.dart';
+import 'package:gta_cheats/utilities/enums/menu_action.dart';
 
 class CustomAppBar extends StatefulWidget implements PreferredSizeWidget
 {

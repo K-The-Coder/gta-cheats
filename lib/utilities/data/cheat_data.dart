@@ -1,4 +1,4 @@
-import 'constants.dart';
+import 'package:gta_cheats/constants/button_icons.dart';
 
 List<Map<String, dynamic>> gtaThreePSCheats = [
   {
@@ -686,4 +686,129 @@ List<Map<String, dynamic>> gtaFourPSCheats = [
   },
 ];
 
-// List<Map<String, dynamic>> gtaFivePSCheats = [];
+List<Map<String, dynamic>> gtaFivePSCheats = [
+  {
+    'title' : 'Invincibility',
+    'code' : [rightButton, crossButton, rightButton, leftButton, rightButton, r1Button, rightButton, leftButton, crossButton, triangleButton],
+  },
+  {
+    'title' : 'Max Health and Armour',
+    'code' : [circleButton, l1Button, triangleButton, r2Button, crossButton, squareButton, circleButton, rightButton, squareButton, l1Button, l1Button, l1Button]
+  },
+  {
+    'title' : 'Weapons',
+    'code' : [triangleButton, r2Button, leftButton, l1Button, crossButton, rightButton, triangleButton, downButton, squareButton, l1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Super Jump',
+    'code' : [leftButton, leftButton, triangleButton, triangleButton, rightButton, rightButton, leftButton, rightButton, squareButton, r1Button, r2Button],
+  },
+  {
+    'title' : 'Moon Gravity',
+    'code' : [leftButton, leftButton, l1Button, r1Button, l1Button, rightButton, leftButton, l1Button, leftButton],
+  },
+  {
+    'title' : 'Raise Wanted Level',
+    'code' : [r1Button, r1Button, circleButton, r2Button, leftButton, rightButton, leftButton, rightButton, leftButton, rightButton],
+  },
+  {
+    'title' : 'Lower Wanted Level',
+    'code' : [r1Button, r1Button, circleButton, r2Button, rightButton, leftButton, rightButton, leftButton, rightButton, leftButton],
+  },
+  {
+    'title' : 'Fast Run',
+    'code' : [triangleButton, leftButton, rightButton, rightButton, l2Button, l1Button, squareButton],
+  },
+  {
+    'title' : 'Fast Swim',
+    'code' : [leftButton, leftButton, l1Button, rightButton, rightButton, r2Button, leftButton, l2Button, rightButton],
+  },
+  {
+    'title' : 'Recharge Ability',
+    'code' : [crossButton, crossButton, squareButton, r1Button, l1Button, crossButton, rightButton, leftButton, crossButton],
+  },
+  {
+    'title' : 'Give Parachute',
+    'code' : [leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, r2Button, leftButton, leftButton, rightButton, l1Button],
+  },
+  {
+    'title' : 'Skyfall',
+    'code' : [l1Button, l2Button, r1Button, r2Button, leftButton, rightButton, leftButton, rightButton, l1Button, l2Button, r1Button, r2Button, leftButton, rightButton, leftButton, rightButton],
+  },
+  {
+    'title' : 'Explosive Melee Attacks',
+    'code' : [rightButton, leftButton, crossButton, triangleButton, r1Button, circleButton, circleButton, circleButton, l2Button],
+  },
+  {
+    'title' : 'Explosive Bullets',
+    'code' : [rightButton, squareButton, crossButton, leftButton, r1Button, r2Button, leftButton, rightButton, rightButton, l1Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Incendiary Bullets',
+    'code' : [l1Button, r1Button, squareButton, r1Button, leftButton, r2Button, r1Button, leftButton, squareButton, rightButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Slow Motion Aim',
+    'code' : [squareButton, l2Button, r1Button, triangleButton, leftButton, squareButton, l2Button, rightButton, crossButton],
+  },
+  {
+    'title' : 'Drunk Mode',
+    'code' : [triangleButton, rightButton, rightButton, leftButton, rightButton, squareButton, circleButton, leftButton],
+  },
+  {
+    'title' : 'Change Weather',
+    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
+  },
+  {
+    'title' : 'Slidey Cars',
+    'code' : [triangleButton, r1Button, r1Button, leftButton, r1Button, l1Button, r2Button, l1Button],
+  },
+  {
+    'title' : 'Slow Motion',
+    'code' : [triangleButton, leftButton, rightButton, rightButton, squareButton, r2Button, r1Button],
+  },
+  {
+    'title' : 'Spawn Buzzard Attack Helicopter',
+    'code' : [circleButton, circleButton, l1Button, circleButton, circleButton, circleButton, l1Button, l2Button, r1Button, triangleButton, circleButton, triangleButton],
+  },
+  {
+    'title' : 'Spawn Comet',
+    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+  },
+  {
+    'title' : 'Spawn Sanchez',
+    'code' : [circleButton, crossButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Spawn Trashmaster',
+    'code' : [circleButton, r1Button, circleButton, r1Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+  },
+  {
+    'title' : 'Spawn Limo',
+    'code' : [r2Button, rightButton, l2Button, leftButton, leftButton, r1Button, l1Button, circleButton, rightButton],
+  },
+  {
+    'title' : 'Spawn Stunt Plane',
+    'code' : [circleButton, rightButton, l1Button, l2Button, leftButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+  },
+  {
+    'title' : 'Spawn Caddy',
+    'code' : [circleButton, l1Button, leftButton, l1Button, l2Button, leftButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+  },
+  {
+    'title' : 'Spawn Rapid GT',
+    'code' : [r2Button, l1Button, circleButton, rightButton, l1Button, r1Button, rightButton, leftButton, circleButton, r2Button],
+  },
+  {
+    'title' : 'Spawn Duster',
+    'code' : [rightButton, leftButton, r1Button, r1Button, r1Button, leftButton, triangleButton, triangleButton, crossButton, circleButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Spawn PCJ-600 Motorcycle',
+    'code' : [r1Button, rightButton, leftButton, rightButton, r2Button, leftButton, rightButton, squareButton, rightButton, l2Button, l1Button, l1Button],
+  },
+  {
+    'title' : 'Spawn BMX',
+    'code' : [leftButton, leftButton, rightButton, rightButton, leftButton, rightButton, squareButton, circleButton, triangleButton, r1Button, r2Button]
+  },
+];

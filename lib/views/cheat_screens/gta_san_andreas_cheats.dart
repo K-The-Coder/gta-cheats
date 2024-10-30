@@ -1,23 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:gta_cheats/cheat_data.dart';
-import 'package:gta_cheats/cheat_screens/gta_vice_city_cheats.dart';
-import 'package:gta_cheats/custom_app_bar.dart';
-import 'package:gta_cheats/home_page.dart';
-import 'package:gta_cheats/cheat_screens/gta_san_andreas_cheats.dart';
-import 'package:gta_cheats/cheat_screens/gta_three_cheats.dart';
+import 'package:gta_cheats/utilities/data/cheat_data.dart';
+import 'package:gta_cheats/utilities/widgets/colored_list_tile.dart';
+import 'package:gta_cheats/utilities/widgets/custom_app_bar.dart';
+import 'package:gta_cheats/utilities/functions/functions.dart';
 
-class GtaFourCheats extends StatelessWidget {
-  const GtaFourCheats({super.key});
+class GtaSanAndreasCheats extends StatelessWidget {
+  const GtaSanAndreasCheats({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const CustomAppBar(title: 'GTA IV Cheats'),
+      appBar: const CustomAppBar(title: 'GTA SA cheats'),
       body: ListView.builder(
-        itemCount: gtaFourPSCheats.length,
+        itemCount: gtaSanAndreasPSCheats.length,
         itemBuilder: (context, index){
           return SizedBox(
-            height: 100,
+            height: 130,
             child: Card(
               elevation: 20,
               margin: const EdgeInsets.all(10),
@@ -32,19 +30,28 @@ class GtaFourCheats extends StatelessWidget {
                 verticalDirection: VerticalDirection.down,
                 children: [
                   Text(
-                    gtaFourPSCheats[index]['title'],
+                    gtaSanAndreasPSCheats[index]['title'],
                     style: const TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(height: 10),
-                  Text(
-                    gtaFourPSCheats[index]['phone-number'],
-                    style: const TextStyle(
-                      fontSize: 25,
-                      decoration: TextDecoration.underline,
+                  Expanded(
+                    child: ListView.builder(
+                      padding: const EdgeInsets.only(left: 8, right: 8),
+                      scrollDirection: Axis.horizontal,
+                      itemCount: gtaSanAndreasPSCheats[index]['code'].length,
+                      itemBuilder: (context, codeIndex) {
+                        return Image.asset(
+                          gtaSanAndreasPSCheats[index]['code'][codeIndex],
+                          height: 50,
+                          width: 45,
+                        );
+                      },
                     ),
                   ),
+                  gtaSanAndreasPSCheats[index].containsKey('disclaimer')
+                      ? Text(gtaSanAndreasPSCheats[index]['disclaimer'])
+                      : Container(),
                 ],
               ),
             ),
@@ -71,11 +78,7 @@ class GtaFourCheats extends StatelessWidget {
             ListTile(
               title: TextButton(
                 onPressed: (){
-                  Navigator.pushAndRemoveUntil(context,
-                    MaterialPageRoute(
-                        builder: (context) => const HomePage()),
-                        (Route<dynamic> route) => false,
-                  );
+                  homePageRoute(context);
                 },
                 child: const Text('Home'),
               ),
@@ -83,9 +86,7 @@ class GtaFourCheats extends StatelessWidget {
             ListTile(
               title: TextButton(
                 onPressed: () {
-                  Navigator.of(context).push(
-                      MaterialPageRoute(builder: (context) => const GtaThreeCheats())
-                  );
+                  gtaThreeRoute(context);
                 },
                 child: const Text('Grand Theft Auto III'),
               ),
@@ -93,29 +94,28 @@ class GtaFourCheats extends StatelessWidget {
             ListTile(
               title: TextButton(
                 onPressed: (){
-                  Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => const GtaViceCityCheats()),
-                  );
+                  gtaViceCityRoute(context);
                 },
                 child: const Text('Grand Theft Auto: Vice City'),
+              ),
+            ),
+            const ColoredListTile(
+              title: 'Grand Theft Auto: San Andreas',
+              tileColor: Colors.grey,
+            ),
+            ListTile(
+              title: TextButton(
+                onPressed: (){
+                  gtaFourRoute(context);
+                },
+                child: const Text('Grand Theft Auto IV'),
               ),
             ),
             ListTile(
               title: TextButton(
                 onPressed: (){
-                  Navigator.of(context).push(
-                    MaterialPageRoute(builder: (context) => const GtaSanAndreasCheats()),
-                  );
+                  gtaFiveRoute(context);
                 },
-                child: const Text('Grand Theft Auto: San Andreas'),
-              ),
-            ),
-            const ListTile(
-              title: Text('Grand Theft Auto IV'),
-            ),
-            ListTile(
-              title: TextButton(
-                onPressed: (){},
                 child: const Text('Grand Theft Auto V'),
               ),
             ),
