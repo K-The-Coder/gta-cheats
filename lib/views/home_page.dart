@@ -16,7 +16,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      onPopInvoked: (popResult) async{
+      onPopInvokedWithResult: (canPop, popResult) async{
         final shouldExit = await showDialog(
           context: context, builder: (context) {
             return AlertDialog(
