@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:gta_cheats/utilities/widgets/app_drawer.dart';
 import 'package:gta_cheats/utilities/widgets/custom_app_bar.dart';
 import 'package:gta_cheats/utilities/functions/functions.dart';
 import 'package:gta_cheats/utilities/widgets/game_card.dart';
@@ -45,7 +46,7 @@ class _HomePageState extends State<HomePage> {
       child: Scaffold(
         appBar: const CustomAppBar(title: 'Home',),
         body: Container(
-          margin: const EdgeInsets.only(top: 60),
+          margin: const EdgeInsets.only(top: 5),
           child: ListView(
               children: [
                 GestureDetector(
@@ -68,6 +69,18 @@ class _HomePageState extends State<HomePage> {
                 ),
                 GestureDetector(
                   onTap: (){
+                    gtaLibertyCityStoriesRoute(context);
+                  },
+                  child: const GameCard(gameName: "Grand Theft Auto: Liberty City Stories"),
+                ),
+                GestureDetector(
+                  onTap: (){
+                    gtaViceCityStoriesRoute(context);
+                  },
+                  child: const GameCard(gameName: "Grand Theft Auto: Vice City Stories"),
+                ),
+                GestureDetector(
+                  onTap: (){
                     gtaFourRoute(context);
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto IV'),
@@ -78,69 +91,16 @@ class _HomePageState extends State<HomePage> {
                   },
                   child: const GameCard(gameName: 'Grand Theft Auto V'),
                 ),
+                GestureDetector(
+                  onTap: (){
+                    gtaSixRoute(context);
+                  },
+                  child: const GameCard(gameName: 'Grand Theft Auto VI'),
+                ),
               ]
           ),
         ),
-        drawer: Drawer(
-          width: 200,
-          child: ListView(
-            padding: EdgeInsets.zero,
-            children: [
-              SizedBox(
-                height: 104,
-                child: DrawerHeader(
-                  decoration: BoxDecoration(
-                    color: Theme.of(context).colorScheme.primary,
-                  ),
-                  child: const Text(
-                    'Menu',
-                    style: TextStyle(color: Colors.white),
-                  ),
-                ),
-              ),
-              ListTile(
-                title: TextButton(
-                  onPressed: (){
-                    gtaThreeRoute(context);
-                  },
-                  child: const Text('Grand Theft Auto III'),
-                ),
-              ),
-              ListTile(
-                title: TextButton(
-                  onPressed: (){
-                    gtaViceCityRoute(context);
-                  },
-                  child: const Text('Grand Theft Auto: Vice City'),
-                ),
-              ),
-              ListTile(
-                title: TextButton(
-                  onPressed: (){
-                    gtaSanAndreasRoute(context);
-                  },
-                  child: const Text('Grand Theft Auto: San Andreas'),
-                ),
-              ),
-              ListTile(
-                title: TextButton(
-                  onPressed: (){
-                    gtaFourRoute(context);
-                  },
-                  child: const Text('Grand Theft Auto IV'),
-                ),
-              ),
-              ListTile(
-                title: TextButton(
-                  onPressed: (){
-                    gtaFiveRoute(context);
-                  },
-                  child: const Text('Grand Theft Auto V'),
-                ),
-              ),
-            ],
-          ),
-        ),
+        drawer: const AppDrawer(selectedTile: 'Home'),
       ),
     );
   }

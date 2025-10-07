@@ -3,26 +3,20 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gta_cheats/utilities/enums/menu_action.dart';
 
-class CustomAppBar extends StatefulWidget implements PreferredSizeWidget
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget
 {
   const CustomAppBar({super.key, required this.title,});
 
   final String title;
 
   @override
-  State<CustomAppBar> createState() => _CustomAppBarState();
-
-  @override
   Size get preferredSize => const Size.fromHeight(kToolbarHeight);
-}
-
-class _CustomAppBarState extends State<CustomAppBar> {
 
   @override
   Widget build(BuildContext context)
   {
     return AppBar(
-      title: Text(widget.title,
+      title: Text(title,
         style: const TextStyle(
           color: Colors.white,
           fontSize: 20
@@ -81,4 +75,6 @@ class _CustomAppBarState extends State<CustomAppBar> {
       foregroundColor: Colors.white,
     );
   }
+
+
 }

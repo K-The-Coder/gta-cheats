@@ -1,4 +1,4 @@
-const crossButton = 'lib/assets/playstation_buttons/cross_button.png';
+const xButton = 'lib/assets/playstation_buttons/cross_button.png';
 const squareButton = 'lib/assets/playstation_buttons/square_button.png';
 const triangleButton = 'lib/assets/playstation_buttons/triangle_button.png';
 const circleButton = 'lib/assets/playstation_buttons/circle_button.png';

@@ -13,6 +13,7 @@ class GameCard extends StatelessWidget {
         color: Colors.grey,
         child: Center(
           child: Text(gameName,
+            textAlign: TextAlign.center,
             style: const TextStyle(
               fontSize: 20,
               color: Colors.white,

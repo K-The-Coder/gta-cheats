@@ -51,7 +51,7 @@ List<Map<String, dynamic>> gtaThreePSCheats = [
   },
   {
     'title' : 'Foggy Weather',
-    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, crossButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, xButton],
   },
   {
     'title' : 'Stormy Weather',
@@ -59,7 +59,7 @@ List<Map<String, dynamic>> gtaThreePSCheats = [
   },
   {
     'title' : 'Overcast Weather',
-    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, crossButton],
+    'code' : [l1Button, l2Button, r1Button, r2Button, r2Button, r1Button, l2Button, xButton],
   },
   {
     'title' : 'Increase Game Speed (2x)',
@@ -75,15 +75,15 @@ List<Map<String, dynamic>> gtaThreePSCheats = [
   },
   {
     'title' : 'Pedestrians Riot',
-    'code' : [downButton, upButton, leftButton, upButton, crossButton, r1Button, r2Button, l2Button, l1Button],
+    'code' : [downButton, upButton, leftButton, upButton, xButton, r1Button, r2Button, l2Button, l1Button],
   },
   {
     'title' : 'Pedestrians attack Claude',
-    'code' : [downButton, upButton, leftButton, upButton, crossButton, r1Button, r2Button, l1Button, l2Button],
+    'code' : [downButton, upButton, leftButton, upButton, xButton, r1Button, r2Button, l1Button, l2Button],
   },
   {
     'title' : 'Pedestrians have Weapons',
-    'code' : [r2Button, r1Button, triangleButton, crossButton, l2Button, l1Button, upButton, downButton],
+    'code' : [r2Button, r1Button, triangleButton, xButton, l2Button, l1Button, upButton, downButton],
   },
   {
     'title' : 'Play as Pedestrian',
@@ -91,7 +91,7 @@ List<Map<String, dynamic>> gtaThreePSCheats = [
   },
   {
     'title' : 'Gore',
-    'code' : [squareButton, l1Button, circleButton, downButton, l1Button, r1Button, triangleButton, rightButton, l1Button, crossButton],
+    'code' : [squareButton, l1Button, circleButton, downButton, l1Button, r1Button, triangleButton, rightButton, l1Button, xButton],
   },
 ];
 
@@ -114,11 +114,11 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Full Armour',
-    'code' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, xButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Black Cars',
-    'code' : [circleButton, l2Button, upButton, r1Button, leftButton, crossButton, r1Button, l1Button, leftButton, circleButton],
+    'code' : [circleButton, l2Button, upButton, r1Button, leftButton, xButton, r1Button, l1Button, leftButton, circleButton],
   },
   {
     'title' : 'Blow Up Cars',
@@ -130,7 +130,7 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Cloudy Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
   },
   {
     'title' : 'Commit Suicide',
@@ -154,11 +154,11 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Foggy Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, crossButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, xButton]
   },
   {
     'title' : 'Female NPCs carry Weapons',
-    'code' : [rightButton, l1Button, circleButton, l2Button, leftButton, crossButton, r1Button, l1Button, l1Button, crossButton],
+    'code' : [rightButton, l1Button, circleButton, l2Button, leftButton, xButton, r1Button, l1Button, l1Button, xButton],
   },
   {
     'title' : 'Lower Wanted Level',
@@ -174,17 +174,17 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Pedestrians attack Tommy',
-    'code' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l2Button],
+    'code' : [downButton, upButton, upButton, upButton, xButton, r2Button, r1Button, l2Button, l2Button],
     'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
   },
   {
     'title' : 'Pedestrians Riot',
-    'code' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+    'code' : [downButton, leftButton, upButton, leftButton, xButton, r2Button, r1Button, l2Button, l1Button],
     'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
   },
   {
     'title' : 'Pedestrians carry Weapons',
-    'code' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
+    'code' : [r2Button, r1Button, xButton, triangleButton, xButton, triangleButton, upButton, downButton],
   },
   {
     'title' : 'Vehicles Have Perfect Handling',
@@ -192,27 +192,27 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Vehicles Turn Pink',
-    'code' : [circleButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, rightButton, circleButton],
+    'code' : [circleButton, l1Button, downButton, l2Button, leftButton, xButton, r1Button, l1Button, rightButton, circleButton],
   },
   {
     'title' : 'Play As Hilary King',
-    'code' : [r1Button, circleButton, r2Button, l1Button, rightButton, r1Button, l1Button, crossButton, r2Button],
+    'code' : [r1Button, circleButton, r2Button, l1Button, rightButton, r1Button, l1Button, xButton, r2Button],
   },
   {
     'title' : 'Play As Ken Rosenberg',
-    'code' : [rightButton, l1Button, upButton, l2Button, l1Button, rightButton, r1Button, l1Button, crossButton, r1Button],
+    'code' : [rightButton, l1Button, upButton, l2Button, l1Button, rightButton, r1Button, l1Button, xButton, r1Button],
   },
   {
     'title' : 'Play As Lance Vance',
-    'code' : [crossButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, l1Button],
+    'code' : [xButton, l2Button, leftButton, xButton, r1Button, l1Button, xButton, l1Button],
   },
   {
     'title' : 'Play As Love Fist Guy #1',
-    'code' : [downButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, crossButton],
+    'code' : [downButton, l1Button, downButton, l2Button, leftButton, xButton, r1Button, l1Button, xButton, xButton],
   },
   {
     'title' : 'Play As Love Fist Guy #2',
-    'code' : [r1Button, l2Button, r2Button, l1Button, rightButton, r2Button, leftButton, crossButton, squareButton, l1Button],
+    'code' : [r1Button, l2Button, r2Button, l1Button, rightButton, r2Button, leftButton, xButton, squareButton, l1Button],
   },
   {
     'title' : 'Play As Mercedes',
@@ -228,11 +228,11 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Play As Sonny Forelli',
-    'code' : [circleButton, l1Button, circleButton, l2Button, leftButton, crossButton, r1Button, l1Button, crossButton, crossButton],
+    'code' : [circleButton, l1Button, circleButton, l2Button, leftButton, xButton, r1Button, l1Button, xButton, xButton],
   },
   {
     'title' : 'Play As Candy Suxxx',
-    'code' : [circleButton, r2Button, downButton, r1Button, leftButton, rightButton, r1Button, l1Button, crossButton, l2Button],
+    'code' : [circleButton, r2Button, downButton, r1Button, leftButton, rightButton, r1Button, l1Button, xButton, l2Button],
   },
   {
     'title' : 'Spawn a Bloodring Banger',
@@ -240,15 +240,15 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Spawn a Bloodring Racer',
-    'code' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
+    'code' : [downButton, r1Button, circleButton, l2Button, l2Button, xButton, r1Button, l1Button, leftButton, leftButton],
   },
   {
     'title' : 'Spawn a Caddie',
-    'code' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
+    'code' : [circleButton, l1Button, upButton, r1Button, l2Button, xButton, r1Button, l1Button, circleButton, xButton],
   },
   {
     'title' : 'Spawn a Hotring Racer #1',
-    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, xButton, xButton, squareButton, r1Button],
   },
   {
     'title' : 'Spawn a Hotring Racer #2',
@@ -268,7 +268,7 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Spawn a Sabre Turbo',
-    'code' : [rightButton, l2Button, downButton, l2Button, l2Button, crossButton, r1Button, l1Button, circleButton, leftButton],
+    'code' : [rightButton, l2Button, downButton, l2Button, l2Button, xButton, r1Button, l1Button, circleButton, leftButton],
   },
   {
     'title' : 'Spawn a Trashmaster',
@@ -276,22 +276,22 @@ List<Map<String, dynamic>> gtaViceCityPSCheats = [
   },
   {
     'title' : 'Stormy Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
   },
   {
     'title' : 'Sunny Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, triangleButton],
   },
   {
     'title' : 'Overcast Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
   },
 ];
 
 List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   {
     'title' : 'Health, Armor, and Money (\$250,000)',
-    'code' : [r1Button, r2Button, l1Button, crossButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
+    'code' : [r1Button, r2Button, l1Button, xButton, leftButton, downButton, rightButton, upButton, leftButton, downButton, rightButton, upButton],
   },
   {
     'title' : 'Infinite Ammo',
@@ -299,7 +299,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Infinite Health',
-    'code' : [downButton, crossButton, rightButton, leftButton, rightButton, r1Button, rightButton, downButton, upButton, triangleButton],
+    'code' : [downButton, xButton, rightButton, leftButton, rightButton, r1Button, rightButton, downButton, upButton, triangleButton],
   },
   {
     'title' : 'Weapons Set #1',
@@ -327,11 +327,11 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Max Wanted Level',
-    'code' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, crossButton, downButton],
+    'code' : [circleButton, rightButton, circleButton, rightButton, leftButton, squareButton, xButton, downButton],
   },
   {
     'title' : 'Pedestrian Riot',
-    'code' : [downButton, leftButton, upButton, leftButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+    'code' : [downButton, leftButton, upButton, leftButton, xButton, r2Button, r1Button, l2Button, l1Button],
   },
   {
     'title' : 'Chaos Mode',
@@ -339,15 +339,15 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Bounty on Your Head',
-    'code' : [downButton, upButton, upButton, upButton, crossButton, r2Button, r1Button, l2Button, l1Button],
+    'code' : [downButton, upButton, upButton, upButton, xButton, r2Button, r1Button, l2Button, l1Button],
   },
   {
     'title' : 'Pedestrians Attack (with guns)',
-    'code' : [crossButton, l1Button, upButton, squareButton, downButton, crossButton, l2Button, triangleButton, downButton, r1Button, l1Button, l1Button],
+    'code' : [xButton, l1Button, upButton, squareButton, downButton, xButton, l2Button, triangleButton, downButton, r1Button, l1Button, l1Button],
   },
   {
     'title' : 'Pedestrians Carry Weapons',
-    'code' : [r2Button, r1Button, crossButton, triangleButton, crossButton, triangleButton, upButton, downButton],
+    'code' : [r2Button, r1Button, xButton, triangleButton, xButton, triangleButton, upButton, downButton],
   },
   {
     'title' : 'All Pedestrians are Elvis',
@@ -359,7 +359,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Triad Theme',
-    'code' : [crossButton, crossButton, downButton, r2Button, l2Button, circleButton, squareButton],
+    'code' : [xButton, xButton, downButton, r2Button, l2Button, circleButton, squareButton],
   },
   {
     'title' : 'Funhouse Theme',
@@ -371,7 +371,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Kinky Theme',
-    'code' : [squareButton, rightButton, squareButton, squareButton, l2Button, crossButton, triangleButton, crossButton, triangleButton],
+    'code' : [squareButton, rightButton, squareButton, squareButton, l2Button, xButton, triangleButton, xButton, triangleButton],
   },
   {
     'title' : 'Mega Jump',
@@ -379,7 +379,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Super Punch',
-    'code' : [upButton, leftButton, crossButton, triangleButton, r1Button, squareButton, squareButton, squareButton, l2Button],
+    'code' : [upButton, leftButton, xButton, triangleButton, r1Button, squareButton, squareButton, squareButton, l2Button],
   },
   {
     'title' : 'Spawn Rhino Tank',
@@ -391,23 +391,23 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Spawn Hydra',
-    'code' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l1Button, downButton, upButton],
+    'code' : [triangleButton, triangleButton, squareButton, circleButton, xButton, l1Button, l1Button, downButton, upButton],
   },
   {
     'title' : 'Spawn Hunter',
-    'code' : [circleButton, crossButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
+    'code' : [circleButton, xButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
   },
   {
     'title' : 'Spawn Stunt Plane',
-    'code' : [circleButton, upButton, l1Button, l2Button, downButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+    'code' : [circleButton, upButton, l1Button, l2Button, downButton, r1Button, l1Button, l1Button, leftButton, leftButton, xButton, triangleButton],
   },
   {
     'title' : 'Spawn Bloodring Banger',
-    'code' : [downButton, r1Button, circleButton, l2Button, l2Button, crossButton, r1Button, l1Button, leftButton, leftButton],
+    'code' : [downButton, r1Button, circleButton, l2Button, l2Button, xButton, r1Button, l1Button, leftButton, leftButton],
   },
   {
     'title' : 'Spawn Vortex Hovercraft',
-    'code' : [triangleButton, triangleButton, squareButton, circleButton, crossButton, l1Button, l2Button, downButton, downButton],
+    'code' : [triangleButton, triangleButton, squareButton, circleButton, xButton, l1Button, l2Button, downButton, downButton],
   },
   {
     'title' : 'Spawn Parachute',
@@ -415,11 +415,11 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Spawn Monster',
-    'code' : [rightButton, upButton, r1Button, r1Button, r1Button, downButton, triangleButton, triangleButton, crossButton, circleButton, l1Button, l1Button],
+    'code' : [rightButton, upButton, r1Button, r1Button, r1Button, downButton, triangleButton, triangleButton, xButton, circleButton, l1Button, l1Button],
   },
   {
     'title' : 'Spawn Hotring Racer #1',
-    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, xButton, xButton, squareButton, r1Button],
   },
   {
     'title' : 'Spawn Hotring Racer #2',
@@ -439,7 +439,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Spawn Caddy',
-    'code' : [circleButton, l1Button, upButton, r1Button, l2Button, crossButton, r1Button, l1Button, circleButton, crossButton],
+    'code' : [circleButton, l1Button, upButton, r1Button, l2Button, xButton, r1Button, l1Button, circleButton, xButton],
   },
   {
     'title' : 'Spawn Quad',
@@ -451,11 +451,11 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Spawn Dozer',
-    'code' : [r2Button, l1Button, l1Button, rightButton, rightButton, upButton, upButton, crossButton, l1Button, leftButton],
+    'code' : [r2Button, l1Button, l1Button, rightButton, rightButton, upButton, upButton, xButton, l1Button, leftButton],
   },
   {
     'title' : 'Spawn Rancher',
-    'code' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, crossButton, l2Button],
+    'code' : [upButton, rightButton, rightButton, l1Button, rightButton, upButton, xButton, l2Button],
   },
   {
     'title' : 'Max Muscle',
@@ -475,7 +475,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Maximum Respect',
-    'code' : [l1Button, r1Button, triangleButton, downButton, r2Button, crossButton, l1Button, upButton, l2Button, l2Button, l1Button, l1Button],
+    'code' : [l1Button, r1Button, triangleButton, downButton, r2Button, xButton, l1Button, upButton, l2Button, l2Button, l1Button, l1Button],
   },
   {
     'title' : 'Maximum Sex Appeal',
@@ -483,11 +483,11 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Hitman Level for All Weapons',
-    'code' : [downButton, squareButton, crossButton, leftButton, r1Button, r2Button, leftButton, downButton, downButton, l1Button, l1Button, l1Button],
+    'code' : [downButton, squareButton, xButton, leftButton, r1Button, r2Button, leftButton, downButton, downButton, l1Button, l1Button, l1Button],
   },
   {
     'title' : 'Gang Members Mode',
-    'code' : [leftButton, rightButton, rightButton, rightButton, leftButton, crossButton, downButton, upButton, squareButton, rightButton, downButton],
+    'code' : [leftButton, rightButton, rightButton, rightButton, leftButton, xButton, downButton, upButton, squareButton, rightButton, downButton],
   },
   {
     'title' : 'Gang Control the Streets',
@@ -499,15 +499,15 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Recruit Anyone (Rocket Launcher)',
-    'code' : [r2Button, r2Button, r2Button, crossButton, l2Button, l1Button, l2Button, downButton, crossButton],
+    'code' : [r2Button, r2Button, r2Button, xButton, l2Button, l1Button, l2Button, downButton, xButton],
   },
   {
     'title' : 'Always Midnight',
-    'code' : [squareButton, l1Button, r1Button, rightButton, crossButton, upButton, l1Button, leftButton, leftButton],
+    'code' : [squareButton, l1Button, r1Button, rightButton, xButton, upButton, l1Button, leftButton, leftButton],
   },
   {
     'title' : 'Always 21:00',
-    'code' : [leftButton, leftButton, l2Button, r1Button, rightButton, squareButton, squareButton, l1Button, l2Button, crossButton],
+    'code' : [leftButton, leftButton, l2Button, r1Button, rightButton, squareButton, squareButton, l1Button, l2Button, xButton],
   },
   {
     'title' : 'Slow Motion',
@@ -523,23 +523,23 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Cloudy Weather',
-    'code' : [l2Button, downButton, downButton, leftButton, squareButton, leftButton, r2Button, squareButton, crossButton, r1Button, l1Button, l1Button],
+    'code' : [l2Button, downButton, downButton, leftButton, squareButton, leftButton, r2Button, squareButton, xButton, r1Button, l1Button, l1Button],
   },
   {
     'title' : 'Foggy Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, crossButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, xButton],
   },
   {
     'title' : 'Stormy Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, circleButton],
   },
   {
     'title' : 'Sunny Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
   },
   {
     'title' : 'Very Sunny Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, downButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, downButton],
   },
   {
     'title' : 'Sandstorm',
@@ -547,7 +547,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Free Aim While Driving',
-    'code' : [upButton, upButton, squareButton, l2Button, rightButton, crossButton, r1Button, downButton, r2Button, circleButton],
+    'code' : [upButton, upButton, squareButton, l2Button, rightButton, xButton, r1Button, downButton, r2Button, circleButton],
   },
   {
     'title' : 'Blow Up All Cars',
@@ -571,7 +571,7 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Flying Cars',
-    'code' : [squareButton, downButton, l2Button, upButton, l1Button, circleButton, upButton, crossButton, leftButton],
+    'code' : [squareButton, downButton, l2Button, upButton, l1Button, circleButton, upButton, xButton, leftButton],
   },
   {
     'title' : 'Flying Boats',
@@ -595,28 +595,198 @@ List<Map<String, dynamic>> gtaSanAndreasPSCheats = [
   },
   {
     'title' : 'Moon Car Gravity',
-    'code' : [squareButton, r2Button, downButton, downButton, leftButton, downButton, leftButton, leftButton, l2Button, crossButton],
+    'code' : [squareButton, r2Button, downButton, downButton, leftButton, downButton, leftButton, leftButton, l2Button, xButton],
   },
   {
     'title' : 'Reduced Traffic',
-    'code' : [crossButton, downButton, upButton, r2Button, downButton, triangleButton, l1Button, triangleButton, leftButton],
+    'code' : [xButton, downButton, upButton, r2Button, downButton, triangleButton, l1Button, triangleButton, leftButton],
   },
   {
     'title' : 'Pink Cars',
-    'code' : [circleButton, l1Button, downButton, l2Button, leftButton, crossButton, r1Button, l1Button, rightButton, circleButton],
+    'code' : [circleButton, l1Button, downButton, l2Button, leftButton, xButton, r1Button, l1Button, rightButton, circleButton],
   },
   {
     'title' : 'Black Cars',
-    'code' : [circleButton, l2Button, upButton, r1Button, leftButton, crossButton, r1Button, l1Button, leftButton, circleButton],
+    'code' : [circleButton, l2Button, upButton, r1Button, leftButton, xButton, r1Button, l1Button, leftButton, circleButton],
   },
   {
     'title' : 'Sports Cars',
-    'code' : [upButton, l1Button, r1Button, upButton, rightButton, upButton, crossButton, l2Button, crossButton, l1Button],
+    'code' : [upButton, l1Button, r1Button, upButton, rightButton, upButton, xButton, l2Button, xButton, l1Button],
   },
   {
     'title' : 'Junk Cars',
-    'code' : [l2Button, rightButton, l1Button, upButton, crossButton, l1Button, l2Button, r2Button, r1Button, l1Button, l1Button, l1Button],
+    'code' : [l2Button, rightButton, l1Button, upButton, xButton, l1Button, l2Button, r2Button, r1Button, l1Button, l1Button, l1Button],
   },
+];
+
+List<Map<String, dynamic>> gtaLibertyCityStoriesPSCheats = [
+  {
+    'title' : 'Weapon Set 1',
+    'code' : [upButton, squareButton, squareButton, downButton, leftButton, squareButton, squareButton, rightButton],
+  },
+  {
+    'title' : 'Weapon Set 2',
+    'code' : [upButton, circleButton, circleButton, downButton, leftButton, circleButton, circleButton, rightButton],
+  },
+  {
+    'title' : 'Weapon Set 3',
+    'code' : [upButton, xButton, xButton, downButton, leftButton, xButton, xButton, rightButton],
+  },
+  {
+    'title' : 'Get \$250000',
+    'code' : [l1Button, r1Button, triangleButton, l1Button, r1Button, circleButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Armour',
+    'code' : [l1Button, r1Button, circleButton, l1Button, r1Button, xButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Health',
+    'code' : [l1Button, r1Button, xButton, l1Button, r1Button, squareButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Raise Wanted Level',
+    'code' : [l1Button, r1Button, squareButton, l1Button, r1Button, triangleButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Clear Wanted Level/Never Wanted',
+    'code' : [l1Button, l1Button, triangleButton, r1Button, r1Button, xButton, squareButton, circleButton],
+  },
+  {
+    'title' : 'Sunny Weather',
+    'code' : [l1Button, l1Button, circleButton, r1Button, r1Button, squareButton, triangleButton, xButton],
+  },
+  {
+    'title' : 'Clear Weather',
+    'code' : [upButton, downButton, circleButton, upButton, downButton, squareButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Overcast Weather',
+    'code' : [upButton, downButton, xButton, upButton, downButton, triangleButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Rainy Weather',
+    'code' : [upButton, downButton, squareButton, upButton, downButton, circleButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Foggy Weather',
+    'code' : [upButton, downButton, triangleButton, upButton, downButton, xButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Spawn Rhino',
+    'code' : [l1Button, l1Button, leftButton, l1Button, l1Button, rightButton, triangleButton, circleButton],
+  },
+  {
+    'title' : 'Faster Clock',
+    'code' : [l1Button, l1Button, leftButton, l1Button, l1Button, rightButton, circleButton, xButton],
+  },
+  {
+    'title' : 'Destroy All Cars',
+    'code' : [l1Button, l1Button, leftButton, l1Button, l1Button, rightButton, xButton, squareButton],
+  },
+  {
+    'title' : 'Play as Pedestrian',
+    'code' : [l1Button, l1Button, leftButton, l1Button, l1Button, rightButton, squareButton, triangleButton],
+  },
+  {
+    'title' : 'Peds Riot',
+    'code' : [l1Button, l1Button, r1Button, l1Button, l1Button, r1Button, leftButton, squareButton],
+    'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
+  },
+  {
+    'title' : 'Peds Attack You',
+    'code' : [l1Button, l1Button, r1Button, l1Button, l1Button, r1Button, upButton, triangleButton],
+    'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
+  },
+  {
+    'title' : 'Peds Have Weapons',
+    'code' : [r1Button, r1Button, l1Button, r1Button, r1Button, l1Button, rightButton, circleButton],
+    'disclaimer' : 'Note: Once activated, this cheat code cannot be deactivated',
+  },
+  {
+    'title' : 'Faster Gameplay',
+    'code' : [r1Button, r1Button, l1Button, r1Button, r1Button, l1Button, downButton, xButton],
+  },
+  {
+    'title' : 'Slower Gameplay',
+    'code' : [r1Button, triangleButton, xButton, r1Button, squareButton, circleButton, leftButton, rightButton],
+  },
+  {
+    'title' : 'Perfect Traction',
+    'code' : [l1Button, upButton, leftButton, r1Button, triangleButton, circleButton, downButton, xButton],
+  },
+  {
+    'title' : 'Media Attention Meter',
+    'code' : [l1Button, upButton, rightButton, r1Button, triangleButton, squareButton, downButton, xButton],
+  },
+  {
+    'title' : 'Commit Suicide',
+    'code' : [l1Button, downButton, leftButton, r1Button, xButton, circleButton, upButton, triangleButton],
+  },
+  {
+    'title' : 'All Green Lights',
+    'code' : [triangleButton, triangleButton, r1Button, squareButton, squareButton, l1Button, xButton, xButton],
+  },
+  {
+    'title' : 'Aggressive Drivers',
+    'code' : [squareButton, squareButton, r1Button, xButton, xButton, l1Button, circleButton, circleButton],
+  },
+  {
+    'title' : 'White Traffic',
+    'code' : [xButton, xButton, r1Button, circleButton, circleButton, l1Button, triangleButton, triangleButton],
+  },
+  {
+    'title' : 'Black Traffic',
+    'code' : [circleButton, circleButton, r1Button, triangleButton, triangleButton, l1Button, squareButton, squareButton],
+  },
+  {
+    'title' : 'Spawn Trash-master',
+    'code' : [triangleButton, circleButton, downButton, triangleButton, circleButton, upButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Cars Drive On Water',
+    'code' : [circleButton, xButton, downButton, circleButton, xButton, upButton, l1Button, l1Button],
+  },
+  {
+    'title' : 'Nearest Ped enters your car',
+    'code' : [xButton, squareButton, downButton, xButton, squareButton, upButton, r1Button, r1Button],
+  },
+  {
+    'title' : 'Certain Peds follow you',
+    'code' : [downButton, downButton, downButton, triangleButton, triangleButton, circleButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'All Peds have Big Heads',
+    'code' : [downButton, downButton, downButton, circleButton, circleButton, xButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Upside Down1',
+    'code' : [downButton, downButton, downButton, xButton, xButton, squareButton, r1Button, l1Button],
+  },
+  {
+    'title' : 'Upside Down2',
+    'code' : [xButton, xButton, xButton, downButton, rightButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'Change Bike Tire Size',
+    'code' : [circleButton, rightButton, xButton, upButton, rightButton, xButton, l1Button, squareButton],
+  },
+  {
+    'title' : 'Display Game Credits',
+    'code' : [l1Button, r1Button, l1Button, r1Button, upButton, downButton, l1Button, r1Button],
+  },
+  {
+    'title' : 'All Vehicles Chrome Plated',
+    'code' : [triangleButton, r1Button, l1Button, downButton, downButton, r1Button, r1Button, triangleButton],
+  },
+
+];
+
+List<Map<String, dynamic>> gtaViceCityStoriesPSCheats = [
+  {
+    'title' : 'Weapon Set 1',
+    'code' : [],
+  }
 ];
 
 List<Map<String, dynamic>> gtaFourPSCheats = [
@@ -689,15 +859,15 @@ List<Map<String, dynamic>> gtaFourPSCheats = [
 List<Map<String, dynamic>> gtaFivePSCheats = [
   {
     'title' : 'Invincibility',
-    'code' : [rightButton, crossButton, rightButton, leftButton, rightButton, r1Button, rightButton, leftButton, crossButton, triangleButton],
+    'code' : [rightButton, xButton, rightButton, leftButton, rightButton, r1Button, rightButton, leftButton, xButton, triangleButton],
   },
   {
     'title' : 'Max Health and Armour',
-    'code' : [circleButton, l1Button, triangleButton, r2Button, crossButton, squareButton, circleButton, rightButton, squareButton, l1Button, l1Button, l1Button]
+    'code' : [circleButton, l1Button, triangleButton, r2Button, xButton, squareButton, circleButton, rightButton, squareButton, l1Button, l1Button, l1Button]
   },
   {
     'title' : 'Weapons',
-    'code' : [triangleButton, r2Button, leftButton, l1Button, crossButton, rightButton, triangleButton, downButton, squareButton, l1Button, l1Button, l1Button],
+    'code' : [triangleButton, r2Button, leftButton, l1Button, xButton, rightButton, triangleButton, downButton, squareButton, l1Button, l1Button, l1Button],
   },
   {
     'title' : 'Super Jump',
@@ -725,7 +895,7 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Recharge Ability',
-    'code' : [crossButton, crossButton, squareButton, r1Button, l1Button, crossButton, rightButton, leftButton, crossButton],
+    'code' : [xButton, xButton, squareButton, r1Button, l1Button, xButton, rightButton, leftButton, xButton],
   },
   {
     'title' : 'Give Parachute',
@@ -737,11 +907,11 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Explosive Melee Attacks',
-    'code' : [rightButton, leftButton, crossButton, triangleButton, r1Button, circleButton, circleButton, circleButton, l2Button],
+    'code' : [rightButton, leftButton, xButton, triangleButton, r1Button, circleButton, circleButton, circleButton, l2Button],
   },
   {
     'title' : 'Explosive Bullets',
-    'code' : [rightButton, squareButton, crossButton, leftButton, r1Button, r2Button, leftButton, rightButton, rightButton, l1Button, l1Button, l1Button],
+    'code' : [rightButton, squareButton, xButton, leftButton, r1Button, r2Button, leftButton, rightButton, rightButton, l1Button, l1Button, l1Button],
   },
   {
     'title' : 'Incendiary Bullets',
@@ -749,7 +919,7 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Slow Motion Aim',
-    'code' : [squareButton, l2Button, r1Button, triangleButton, leftButton, squareButton, l2Button, rightButton, crossButton],
+    'code' : [squareButton, l2Button, r1Button, triangleButton, leftButton, squareButton, l2Button, rightButton, xButton],
   },
   {
     'title' : 'Drunk Mode',
@@ -757,7 +927,7 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Change Weather',
-    'code' : [r2Button, crossButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
+    'code' : [r2Button, xButton, l1Button, l1Button, l2Button, l2Button, l2Button, squareButton],
   },
   {
     'title' : 'Slidey Cars',
@@ -773,11 +943,11 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Spawn Comet',
-    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, crossButton, crossButton, squareButton, r1Button],
+    'code' : [r1Button, circleButton, r2Button, rightButton, l1Button, l2Button, xButton, xButton, squareButton, r1Button],
   },
   {
     'title' : 'Spawn Sanchez',
-    'code' : [circleButton, crossButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
+    'code' : [circleButton, xButton, l1Button, circleButton, circleButton, l1Button, circleButton, r1Button, r2Button, l2Button, l1Button, l1Button],
   },
   {
     'title' : 'Spawn Trashmaster',
@@ -789,11 +959,11 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Spawn Stunt Plane',
-    'code' : [circleButton, rightButton, l1Button, l2Button, leftButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+    'code' : [circleButton, rightButton, l1Button, l2Button, leftButton, r1Button, l1Button, l1Button, leftButton, leftButton, xButton, triangleButton],
   },
   {
     'title' : 'Spawn Caddy',
-    'code' : [circleButton, l1Button, leftButton, l1Button, l2Button, leftButton, r1Button, l1Button, l1Button, leftButton, leftButton, crossButton, triangleButton],
+    'code' : [circleButton, l1Button, leftButton, l1Button, l2Button, leftButton, r1Button, l1Button, l1Button, leftButton, leftButton, xButton, triangleButton],
   },
   {
     'title' : 'Spawn Rapid GT',
@@ -801,7 +971,7 @@ List<Map<String, dynamic>> gtaFivePSCheats = [
   },
   {
     'title' : 'Spawn Duster',
-    'code' : [rightButton, leftButton, r1Button, r1Button, r1Button, leftButton, triangleButton, triangleButton, crossButton, circleButton, l1Button, l1Button],
+    'code' : [rightButton, leftButton, r1Button, r1Button, r1Button, leftButton, triangleButton, triangleButton, xButton, circleButton, l1Button, l1Button],
   },
   {
     'title' : 'Spawn PCJ-600 Motorcycle',

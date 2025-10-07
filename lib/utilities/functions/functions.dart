@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:gta_cheats/views/cheat_screens/gta_liberty_city_stories_cheats.dart';
+import 'package:gta_cheats/views/cheat_screens/gta_six_cheats.dart';
+import 'package:gta_cheats/views/cheat_screens/gta_vice_city_stories_cheats.dart';
 import 'package:gta_cheats/views/home_page.dart';
 import 'package:gta_cheats/views/cheat_screens/gta_five_cheats.dart';
 import 'package:gta_cheats/views/cheat_screens/gta_four_cheats.dart';
@@ -36,6 +39,19 @@ void gtaSanAndreasRoute(BuildContext context)
   );
 }
 
+void gtaLibertyCityStoriesRoute(BuildContext context)
+{
+  Navigator.of(context).push(
+    MaterialPageRoute(builder: (context) => const GtaLibertyCityStoriesCheats()),
+  );
+}
+
+void gtaViceCityStoriesRoute(BuildContext context){
+  Navigator.of(context).push(
+    MaterialPageRoute(builder: (context) => const GtaViceCityStoriesCheats()),
+  );
+}
+
 void gtaFourRoute(BuildContext context)
 {
   Navigator.of(context).push(
@@ -47,6 +63,13 @@ void gtaFiveRoute(BuildContext context)
 {
   Navigator.of(context).push(
     MaterialPageRoute(builder: (context) => const GtaFiveCheats()),
+  );
+}
+
+void gtaSixRoute(BuildContext context)
+{
+  Navigator.of(context).push(
+    MaterialPageRoute(builder: (context) => const GtaSixCheats()),
   );
 }
 
