@@ -10,43 +10,50 @@ class GtaFourCheats extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const CustomAppBar(title: 'GTA IV Cheats'),
-      body: ListView.builder(
-        itemCount: gtaFourPSCheats.length,
-        itemBuilder: (context, index){
-          return SizedBox(
-            height: 100,
-            child: Card(
-              elevation: 20,
-              margin: const EdgeInsets.all(10),
-              shape: RoundedRectangleBorder(
-                side: const BorderSide(
-                  color: Colors.black,
-                  style: BorderStyle.solid,
-                ),
-                borderRadius: BorderRadius.circular(8),
-              ),
-              child: Column(
-                verticalDirection: VerticalDirection.down,
-                children: [
-                  Text(
-                    gtaFourPSCheats[index]['title'],
-                    style: const TextStyle(
-                      fontWeight: FontWeight.bold,
+      body: Column(
+        children: [
+          const Text("Note: Enabling cheats disables trophies"),
+          Expanded(
+            child: ListView.builder(
+              itemCount: gtaFourPSCheats.length,
+              itemBuilder: (context, index){
+                return SizedBox(
+                  height: 100,
+                  child: Card(
+                    elevation: 20,
+                    margin: const EdgeInsets.all(10),
+                    shape: RoundedRectangleBorder(
+                      side: const BorderSide(
+                        color: Colors.black,
+                        style: BorderStyle.solid,
+                      ),
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Column(
+                      verticalDirection: VerticalDirection.down,
+                      children: [
+                        Text(
+                          gtaFourPSCheats[index]['title'],
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        const SizedBox(height: 10),
+                        Text(
+                          gtaFourPSCheats[index]['phone-number'],
+                          style: const TextStyle(
+                            fontSize: 25,
+                            decoration: TextDecoration.underline,
+                          ),
+                        ),
+                      ],
                     ),
                   ),
-                  const SizedBox(height: 10),
-                  Text(
-                    gtaFourPSCheats[index]['phone-number'],
-                    style: const TextStyle(
-                      fontSize: 25,
-                      decoration: TextDecoration.underline,
-                    ),
-                  ),
-                ],
-              ),
+                );
+              },
             ),
-          );
-        },
+          ),
+        ],
       ),
       drawer: const AppDrawer(selectedTile: 'Grand Theft Auto IV')
     );

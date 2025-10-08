@@ -17,9 +17,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return PopScope(
       canPop: false,
-      onPopInvokedWithResult: (canPop, popResult) async{
+      onPopInvokedWithResult: (canPop, popResult) async {
         final shouldExit = await showDialog(
-          context: context, builder: (context) {
+          context: context,
+          builder: (context) {
             return AlertDialog(
               icon: const Icon(Icons.exit_to_app),
               title: const Text('Exit?'),
@@ -32,7 +33,7 @@ class _HomePageState extends State<HomePage> {
                   child: const Text('Yes'),
                 ),
                 TextButton(
-                  onPressed: (){
+                  onPressed: () {
                     Navigator.of(context).pop(false);
                   },
                   child: const Text('No'),
@@ -44,61 +45,77 @@ class _HomePageState extends State<HomePage> {
         return shouldExit ?? false;
       },
       child: Scaffold(
-        appBar: const CustomAppBar(title: 'Home',),
+        appBar: const CustomAppBar(
+          title: 'Home',
+        ),
         body: Container(
           margin: const EdgeInsets.only(top: 5),
-          child: ListView(
-              children: [
-                GestureDetector(
-                  onTap: (){
-                    gtaThreeRoute(context);
-                  },
-                  child: const GameCard(gameName: 'Grand Theft Auto III'),
-                ),
-                GestureDetector(
-                  onTap: (){
-                    gtaViceCityRoute(context);
-                  },
-                  child: const GameCard(gameName: 'Grand Theft Auto: Vice City'),
-                ),
-                GestureDetector(
-                  onTap: (){
-                   gtaSanAndreasRoute(context);
-                  },
-                  child: const GameCard(gameName: 'Grand Theft Auto: San Andreas'),
-                ),
-                GestureDetector(
-                  onTap: (){
-                    gtaLibertyCityStoriesRoute(context);
-                  },
-                  child: const GameCard(gameName: "Grand Theft Auto: Liberty City Stories"),
-                ),
-                GestureDetector(
-                  onTap: (){
-                    gtaViceCityStoriesRoute(context);
-                  },
-                  child: const GameCard(gameName: "Grand Theft Auto: Vice City Stories"),
-                ),
-                GestureDetector(
-                  onTap: (){
-                    gtaFourRoute(context);
-                  },
-                  child: const GameCard(gameName: 'Grand Theft Auto IV'),
-                ),
-                GestureDetector(
-                  onTap: (){
-                   gtaFiveRoute(context);
-                  },
-                  child: const GameCard(gameName: 'Grand Theft Auto V'),
-                ),
-                GestureDetector(
-                  onTap: (){
-                    gtaSixRoute(context);
-                  },
-                  child: const GameCard(gameName: 'Grand Theft Auto VI'),
-                ),
-              ]
-          ),
+          child: ListView(children: [
+            GestureDetector(
+              onTap: () {
+                gtaThreeRoute(context);
+              },
+              child: const GameCard(
+                gameName: 'Grand Theft Auto III',
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaViceCityRoute(context);
+              },
+              child: const GameCard(
+                gameName: 'Grand Theft Auto: Vice City',
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaSanAndreasRoute(context);
+              },
+              child: const GameCard(
+                gameName: 'Grand Theft Auto: San Andreas',
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaLibertyCityStoriesRoute(context);
+              },
+              child: const GameCard(
+                gameName: "Grand Theft Auto: Liberty City Stories",
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaViceCityStoriesRoute(context);
+              },
+              child: const GameCard(
+                gameName: "Grand Theft Auto: Vice City Stories",
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaFourRoute(context);
+              },
+              child: const GameCard(
+                gameName: 'Grand Theft Auto IV',
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaFiveRoute(context);
+              },
+              child: const GameCard(
+                gameName: 'Grand Theft Auto V',
+              ),
+            ),
+            GestureDetector(
+              onTap: () {
+                gtaSixRoute(context);
+              },
+              child: const GameCard(
+                gameName: 'Grand Theft Auto VI',
+              ),
+            ),
+          ]),
         ),
         drawer: const AppDrawer(selectedTile: 'Home'),
       ),

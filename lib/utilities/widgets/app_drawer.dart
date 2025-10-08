@@ -42,8 +42,9 @@ class AppDrawer extends StatelessWidget {
                         ),
                       ),
                 selectedTile == 'Grand Theft Auto III'
-                    ? const ColoredListTile(
-                        title: 'Grand Theft Auto III', tileColor: Colors.grey)
+                    ? ColoredListTile(
+                        title: 'Grand Theft Auto III',
+                        tileColor: Colors.indigo.shade900)
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -53,9 +54,9 @@ class AppDrawer extends StatelessWidget {
                         ),
                       ),
                 selectedTile == 'Grand Theft Auto: Vice City'
-                    ? const ColoredListTile(
+                    ? ColoredListTile(
                         title: "Grand Theft Auto: Vice City",
-                        tileColor: Colors.grey)
+                        tileColor: Colors.pink.shade300)
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -65,9 +66,9 @@ class AppDrawer extends StatelessWidget {
                         ),
                       ),
                 selectedTile == 'Grand Theft Auto: San Andreas'
-                    ? const ColoredListTile(
+                    ? ColoredListTile(
                         title: "Grand Theft Auto: San Andreas",
-                        tileColor: Colors.grey)
+                        tileColor: Colors.green.shade700)
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -77,9 +78,9 @@ class AppDrawer extends StatelessWidget {
                         ),
                       ),
                 selectedTile == 'Grand Theft Auto: Liberty City Stories'
-                    ? const ColoredListTile(
+                    ? ColoredListTile(
                         title: 'Grand Theft Auto: Liberty City Stories',
-                        tileColor: Colors.grey)
+                        tileColor: Colors.red.shade900)
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -90,9 +91,11 @@ class AppDrawer extends StatelessWidget {
                         ),
                       ),
                 selectedTile == 'Grand Theft Auto: Vice City Stories'
-                    ? const ColoredListTile(
+                    ? ColoredListTile(
                         title: 'Grand Theft Auto: Vice City Stories',
-                        tileColor: Colors.grey)
+                        tileColor: Colors.orange.shade400,
+                        textColor: Colors.black,
+                      )
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -104,7 +107,10 @@ class AppDrawer extends StatelessWidget {
                       ),
                 selectedTile == 'Grand Theft Auto IV'
                     ? const ColoredListTile(
-                        title: 'Grand Theft Auto IV', tileColor: Colors.grey)
+                        title: 'Grand Theft Auto IV',
+                        tileColor: Colors.grey,
+                        textColor: Colors.black,
+                      )
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -115,7 +121,8 @@ class AppDrawer extends StatelessWidget {
                       ),
                 selectedTile == 'Grand Theft Auto V'
                     ? const ColoredListTile(
-                        title: 'Grand Theft Auto V', tileColor: Colors.grey)
+                        title: 'Grand Theft Auto V',
+                        tileColor: Colors.lightGreen)
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
@@ -126,7 +133,8 @@ class AppDrawer extends StatelessWidget {
                       ),
                 selectedTile == 'Grand Theft Auto VI'
                     ? const ColoredListTile(
-                        title: 'Grand Theft Auto VI', tileColor: Colors.grey)
+                        title: 'Grand Theft Auto VI',
+                        tileColor: Colors.purpleAccent)
                     : ListTile(
                         title: TextButton(
                           onPressed: () {
